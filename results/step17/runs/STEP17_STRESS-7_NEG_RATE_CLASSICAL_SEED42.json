@@ -1,0 +1,58 @@
+{
+  "experiment_id": "STEP17_STRESS-7_NEG_RATE_CLASSICAL_SEED42",
+  "scenario_id": "STRESS-7_NEG_RATE",
+  "expected_stress_factor": "Negative Rate",
+  "security_mode": "CLASSICAL",
+  "seed": 42,
+  "scale_configuration": {
+    "devices": 50,
+    "edge_nodes": 5,
+    "core_nodes": 1
+  },
+  "workload_configuration": {
+    "duration": 50,
+    "message_rate": -0.5,
+    "payload_size": 256
+  },
+  "status": "COMPLETED",
+  "network_metrics": {
+    "messages_generated": 0,
+    "messages_delivered": 0,
+    "messages_failed": 0,
+    "messages_in_flight": 0,
+    "average_response_latency_ticks": 0.0,
+    "throughput": 0.0,
+    "execution_time_sec": 0.0007543563842773438
+  },
+  "security_metrics": {
+    "authentication_attempts": 0,
+    "authentication_successes": 0,
+    "authentication_failures": 0,
+    "key_establishment_operations": 0,
+    "encryption_operations": 0,
+    "decryption_operations": 0,
+    "security_failures": 0,
+    "security_processing_time": 0.0
+  },
+  "adaptive_metrics": {
+    "initial_mode": "N/A",
+    "final_mode": "N/A",
+    "transition_count": "N/A",
+    "transition_latency": "N/A",
+    "adaptive_orchestration_execution_time": "N/A"
+  },
+  "stress_metrics": {
+    "exception_count": 0,
+    "run_failure": false,
+    "state_consistency_violation": false,
+    "accounting_violation": false,
+    "event_count": 0,
+    "events_per_generated_message": 0,
+    "execution_time_per_generated_message": 0,
+    "execution_time_per_device": 1.5087127685546875e-05
+  },
+  "resource_metrics": {
+    "peak_memory": "N/A",
+    "cpu_usage": "N/A"
+  }
+}

@@ -1,0 +1,8 @@
+network:
+  num_core_nodes: 1
+  num_devices: 10
+  num_edge_nodes: 2
+simulation:
+  duration: 10
+  message_generation_rate: 0.5
+  random_seed: 123

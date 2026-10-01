@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Next.js
+web-dashboard/node_modules/
+web-dashboard/.next/
+web-dashboard/out/
+web-dashboard/build/
+web-dashboard/.env*.local

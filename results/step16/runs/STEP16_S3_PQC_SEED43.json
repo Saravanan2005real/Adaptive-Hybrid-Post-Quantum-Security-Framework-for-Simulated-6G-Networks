@@ -1,0 +1,84 @@
+{
+  "experiment_id": "STEP16_S3_PQC_SEED43",
+  "scale_id": "S3",
+  "security_mode": "PQC",
+  "seed": 43,
+  "network_configuration": {
+    "devices": 250,
+    "edge_nodes": 25,
+    "core_nodes": 5
+  },
+  "workload_configuration": {
+    "duration": 50,
+    "message_generation_rate": 0.2,
+    "payload_size": 256
+  },
+  "status": "COMPLETED",
+  "network_metrics": {
+    "devices": 250,
+    "edge_nodes": 25,
+    "core_nodes": 5,
+    "messages_generated": 2515,
+    "responses_delivered": 2365,
+    "failed_messages": 0,
+    "in_flight_messages": 150,
+    "average_response_latency": 1.0,
+    "throughput": 47.3
+  },
+  "authentication_metrics": {
+    "authentication_attempts": 250,
+    "successful_authentications": 250,
+    "authentication_failures": 0,
+    "authentication_latency": 52960.83179989364
+  },
+  "key_establishment_metrics": {
+    "key_establishment_attempts": 250,
+    "successful_exchanges": 250,
+    "failures": 0,
+    "key_establishment_latency": 5051.211699959822
+  },
+  "encryption_metrics": {
+    "encryption_attempts": 4730,
+    "encryption_failures": 0,
+    "encryption_latency": 34.98580033192411
+  },
+  "decryption_metrics": {
+    "decryption_attempts": 4730,
+    "decryption_failures": 0,
+    "decryption_latency": 26.176700135692954
+  },
+  "security_overhead_metrics": {
+    "security_processing_time": 58.07320600032108,
+    "network_processing_proxy": 0.01,
+    "combined_execution_time": 58.35940098762512,
+    "security_overhead": 99.50959916918146
+  },
+  "communication_overhead_metrics": {
+    "plaintext_payload_bytes": 605440,
+    "protected_message_bytes": 737880,
+    "security_overhead_bytes": 132440,
+    "overhead_percentage": 21.875
+  },
+  "adaptive_metrics": {
+    "rule_risk": "N/A",
+    "ml_risk": "N/A",
+    "fused_risk": "N/A",
+    "initial_mode": "N/A",
+    "final_mode": "N/A",
+    "transition_count": "N/A",
+    "transition_ticks": "N/A",
+    "adaptive_orchestration_execution_time": "N/A"
+  },
+  "scalability_metrics": {
+    "execution_time_per_device": 0.23343760395050048,
+    "messages_generated_per_device": 10.06,
+    "delivered_responses_per_device": 9.46,
+    "security_processing_time_per_device": 0.23229282400128431,
+    "throughput_per_device": 0.18919999999999998,
+    "event_count_per_device": 20.92,
+    "scaling_ratio": 4.85809981043697
+  },
+  "metrics": {
+    "execution_time_sec": 58.35940098762512
+  }
+}

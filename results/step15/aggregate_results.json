@@ -1,0 +1,301 @@
+{
+  "aggregates_by_mode": {
+    "CLASSICAL": {
+      "count": 5,
+      "network_metrics.messages_generated": {
+        "mean": 981,
+        "median": 981,
+        "min": 981,
+        "max": 981,
+        "stdev": 0.0
+      },
+      "network_metrics.responses_delivered": {
+        "mean": 920,
+        "median": 920,
+        "min": 920,
+        "max": 920,
+        "stdev": 0.0
+      },
+      "network_metrics.average_response_latency": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "stdev": 0.0
+      },
+      "network_metrics.throughput": {
+        "mean": 18.4,
+        "median": 18.4,
+        "min": 18.4,
+        "max": 18.4,
+        "stdev": 0.0
+      },
+      "authentication_metrics.authentication_latency": {
+        "mean": 27.80825992813334,
+        "median": 27.753499918617308,
+        "min": 27.15619996888563,
+        "max": 28.543299937155098,
+        "stdev": 0.5993115306506552
+      },
+      "key_establishment_metrics.key_establishment_latency": {
+        "mean": 18.770899798255414,
+        "median": 16.761699866037816,
+        "min": 15.887799905613065,
+        "max": 28.25389977078885,
+        "stdev": 5.324376266049936
+      },
+      "encryption_metrics.encryption_latency": {
+        "mean": 12.231640366371721,
+        "median": 12.456799915526062,
+        "min": 11.550900060683489,
+        "max": 13.032599992584437,
+        "stdev": 0.6396394872568445
+      },
+      "decryption_metrics.decryption_latency": {
+        "mean": 10.531719645950943,
+        "median": 10.295801213942468,
+        "min": 9.816400066483766,
+        "max": 11.625298298895359,
+        "stdev": 0.7187451045221174
+      },
+      "communication_overhead_metrics.overhead_percentage": {
+        "mean": 10.9375,
+        "median": 10.9375,
+        "min": 10.9375,
+        "max": 10.9375,
+        "stdev": 0.0
+      },
+      "metrics.execution_time_sec": {
+        "mean": 0.152608060836792,
+        "median": 0.14467525482177734,
+        "min": 0.13730216026306152,
+        "max": 0.19682550430297852,
+        "stdev": 0.025061624630281165
+      }
+    },
+    "PQC": {
+      "count": 5,
+      "network_metrics.messages_generated": {
+        "mean": 981,
+        "median": 981,
+        "min": 981,
+        "max": 981,
+        "stdev": 0.0
+      },
+      "network_metrics.responses_delivered": {
+        "mean": 920,
+        "median": 920,
+        "min": 920,
+        "max": 920,
+        "stdev": 0.0
+      },
+      "network_metrics.average_response_latency": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "stdev": 0.0
+      },
+      "network_metrics.throughput": {
+        "mean": 18.4,
+        "median": 18.4,
+        "min": 18.4,
+        "max": 18.4,
+        "stdev": 0.0
+      },
+      "authentication_metrics.authentication_latency": {
+        "mean": 20372.490120038856,
+        "median": 19596.9401000184,
+        "min": 19321.65540062124,
+        "max": 23813.450499728788,
+        "stdev": 1927.497362171789
+      },
+      "key_establishment_metrics.key_establishment_latency": {
+        "mean": 1851.5167399891652,
+        "median": 1847.965900262352,
+        "min": 1799.8801998910494,
+        "max": 1921.8948998022825,
+        "stdev": 46.99332114364208
+      },
+      "encryption_metrics.encryption_latency": {
+        "mean": 13.909478962887079,
+        "median": 13.457498222123832,
+        "min": 12.94189743930474,
+        "max": 15.050699876155704,
+        "stdev": 0.9533835536464853
+      },
+      "decryption_metrics.decryption_latency": {
+        "mean": 10.257259826175869,
+        "median": 9.758900327142328,
+        "min": 9.399999864399433,
+        "max": 11.375799716915935,
+        "stdev": 0.8764278309690814
+      },
+      "communication_overhead_metrics.overhead_percentage": {
+        "mean": 21.875,
+        "median": 21.875,
+        "min": 21.875,
+        "max": 21.875,
+        "stdev": 0.0
+      },
+      "metrics.execution_time_sec": {
+        "mean": 22.36378684043884,
+        "median": 21.57176446914673,
+        "min": 21.305429697036743,
+        "max": 25.90173864364624,
+        "stdev": 1.9811414634708553
+      }
+    },
+    "HYBRID": {
+      "count": 5,
+      "network_metrics.messages_generated": {
+        "mean": 981,
+        "median": 981,
+        "min": 981,
+        "max": 981,
+        "stdev": 0.0
+      },
+      "network_metrics.responses_delivered": {
+        "mean": 920,
+        "median": 920,
+        "min": 920,
+        "max": 920,
+        "stdev": 0.0
+      },
+      "network_metrics.average_response_latency": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "stdev": 0.0
+      },
+      "network_metrics.throughput": {
+        "mean": 18.4,
+        "median": 18.4,
+        "min": 18.4,
+        "max": 18.4,
+        "stdev": 0.0
+      },
+      "authentication_metrics.authentication_latency": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "stdev": 0.0
+      },
+      "key_establishment_metrics.key_establishment_latency": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "stdev": 0.0
+      },
+      "encryption_metrics.encryption_latency": {
+        "mean": 13.328360032755882,
+        "median": 13.11290025478229,
+        "min": 12.844399025198072,
+        "max": 14.136400015559047,
+        "stdev": 0.5149149605251547
+      },
+      "decryption_metrics.decryption_latency": {
+        "mean": 9.640240669250488,
+        "median": 9.44310100749135,
+        "min": 9.432499879039824,
+        "max": 10.086101538036019,
+        "stdev": 0.2944997843524698
+      },
+      "communication_overhead_metrics.overhead_percentage": {
+        "mean": 32.8125,
+        "median": 32.8125,
+        "min": 32.8125,
+        "max": 32.8125,
+        "stdev": 0.0
+      },
+      "metrics.execution_time_sec": {
+        "mean": 22.21702003479004,
+        "median": 22.081599950790405,
+        "min": 21.06932783126831,
+        "max": 24.355204582214355,
+        "stdev": 1.319436149855941
+      }
+    },
+    "ADAPTIVE_HYBRID": {
+      "count": 5,
+      "network_metrics.messages_generated": {
+        "mean": 981,
+        "median": 981,
+        "min": 981,
+        "max": 981,
+        "stdev": 0.0
+      },
+      "network_metrics.responses_delivered": {
+        "mean": 920,
+        "median": 920,
+        "min": 920,
+        "max": 920,
+        "stdev": 0.0
+      },
+      "network_metrics.average_response_latency": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "stdev": 0.0
+      },
+      "network_metrics.throughput": {
+        "mean": 18.4,
+        "median": 18.4,
+        "min": 18.4,
+        "max": 18.4,
+        "stdev": 0.0
+      },
+      "authentication_metrics.authentication_latency": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "stdev": 0.0
+      },
+      "key_establishment_metrics.key_establishment_latency": {
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "stdev": 0.0
+      },
+      "encryption_metrics.encryption_latency": {
+        "mean": 48.87773983646184,
+        "median": 46.43669992219657,
+        "min": 36.482100549619645,
+        "max": 72.86059984471649,
+        "stdev": 14.782696772634406
+      },
+      "decryption_metrics.decryption_latency": {
+        "mean": 14.967699418775737,
+        "median": 12.848099635448307,
+        "min": 12.325298856012523,
+        "max": 22.6769003784284,
+        "stdev": 4.362139876494516
+      },
+      "communication_overhead_metrics.overhead_percentage": {
+        "mean": 32.8125,
+        "median": 32.8125,
+        "min": 32.8125,
+        "max": 32.8125,
+        "stdev": 0.0
+      },
+      "metrics.execution_time_sec": {
+        "mean": 30.303948307037352,
+        "median": 28.80616569519043,
+        "min": 27.89715027809143,
+        "max": 37.747440814971924,
+        "stdev": 4.197975904855655
+      },
+      "adaptive_orchestration_time": {
+        "mean": 30.3035916400142,
+        "min": 27.89723950001644,
+        "max": 37.74743800004944
+      }
+    }
+  }
+}

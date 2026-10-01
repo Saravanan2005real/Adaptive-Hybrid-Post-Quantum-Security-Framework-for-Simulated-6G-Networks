@@ -1,0 +1,51 @@
+{
+  "experiment_id": "ATTACK_SESSION_ABUSE_ATTACK_LOW_SEED42",
+  "attack_type": "SESSION_ABUSE_ATTACK",
+  "intensity": "LOW",
+  "seed": 42,
+  "simulation_duration": 6,
+  "status": "COMPLETED",
+  "ground_truth": {
+    "attack_id": "atk_1",
+    "attack_type": "SESSION_ABUSE_ATTACK",
+    "attacker_id": "attacker_X",
+    "target_id": "core-0",
+    "context_id": "ctx_dev-0_core-0",
+    "start_tick": 5,
+    "end_tick": 10,
+    "intended_intensity": "LOW",
+    "attack_scheduled": true,
+    "attack_attempted": true,
+    "attack_injected": true,
+    "attempts_generated": 6,
+    "events_generated": 6
+  },
+  "security_observations": {
+    "authentication_failures": 6,
+    "replay_failures": 0,
+    "integrity_failures": 0,
+    "session_failures": 0,
+    "resource_pressure_injections": 0,
+    "mode_changed": 1,
+    "transition_source_mode": "CLASSICAL",
+    "transition_target_mode": "PQC",
+    "transition_latency_ticks": 0
+  },
+  "risk": {
+    "rule_pre": 10.0,
+    "rule_post": 45.0,
+    "rule_delta": 35.0,
+    "ml_pre": 10.0,
+    "ml_post": 45.0,
+    "ml_delta": 35.0
+  },
+  "adaptive_response": {
+    "mode_pre": "CLASSICAL",
+    "mode_post": "HYBRID",
+    "transition_count": 1,
+    "transition_latency_ticks": 0
+  },
+  "performance": {
+    "execution_time_seconds": 0.08662729995558038
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "aggregates_by_scale_mode": {
+    "STRESS-2": {
+      "HYBRID": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 5001
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 4690
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 209.28296796480814
+        },
+        "stress_metrics.event_count": {
+          "mean": 11374
+        }
+      }
+    },
+    "STRESS-5": {
+      "CLASSICAL": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 2506
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 2430
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 0.27066651980082196
+        },
+        "stress_metrics.event_count": {
+          "mean": 4960
+        }
+      },
+      "PQC": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 2506
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 2430
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 10.31481671333313
+        },
+        "stress_metrics.event_count": {
+          "mean": 4960
+        }
+      },
+      "HYBRID": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 2506
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 2430
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 10.670690218607584
+        },
+        "stress_metrics.event_count": {
+          "mean": 4960
+        }
+      },
+      "ADAPTIVE_HYBRID": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 2506
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 2430
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 21.11642074584961
+        },
+        "stress_metrics.event_count": {
+          "mean": 4960
+        }
+      }
+    },
+    "STRESS-1": {
+      "HYBRID": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 2500
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 2350
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 10.138034184773764
+        },
+        "stress_metrics.event_count": {
+          "mean": 4800
+        }
+      }
+    },
+    "STRESS-6": {
+      "ADAPTIVE_HYBRID": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 25000
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 24250
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 167.41274762153625
+        },
+        "stress_metrics.event_count": {
+          "mean": 49000
+        }
+      }
+    },
+    "STRESS-4": {
+      "HYBRID": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 10000
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 9850
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 11.807224671045939
+        },
+        "stress_metrics.event_count": {
+          "mean": 19800
+        }
+      }
+    },
+    "STRESS-7_NEG_RATE": {
+      "CLASSICAL": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 0
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 0
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 0.0007526874542236328
+        },
+        "stress_metrics.event_count": {
+          "mean": 0
+        }
+      }
+    },
+    "STRESS-7_ZERO_DEV": {
+      "CLASSICAL": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 0
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 0
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 0.00024954477945963543
+        },
+        "stress_metrics.event_count": {
+          "mean": 0
+        }
+      }
+    },
+    "STRESS-3": {
+      "HYBRID": {
+        "count": 3,
+        "completed": 3,
+        "failed": 0,
+        "network_metrics.messages_generated": {
+          "mean": 2499
+        },
+        "network_metrics.messages_delivered": {
+          "mean": 2484
+        },
+        "network_metrics.execution_time_sec": {
+          "mean": 10.03734310468038
+        },
+        "stress_metrics.event_count": {
+          "mean": 5068
+        }
+      }
+    }
+  }
+}

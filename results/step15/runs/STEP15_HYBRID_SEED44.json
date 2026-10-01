@@ -1,0 +1,76 @@
+{
+  "experiment_id": "STEP15_HYBRID_SEED44",
+  "security_mode": "HYBRID",
+  "seed": 44,
+  "configuration": {
+    "network": "default_network.yaml",
+    "duration": 50,
+    "devices": 100,
+    "edges": 10,
+    "cores": 2
+  },
+  "status": "COMPLETED",
+  "network_metrics": {
+    "messages_generated": 981,
+    "responses_delivered": 920,
+    "failed_messages": 0,
+    "in_flight_messages": 61,
+    "average_response_latency": 1.0,
+    "throughput": 18.4
+  },
+  "authentication_metrics": {
+    "authentication_attempts": 100,
+    "successful_authentications": 100,
+    "authentication_failures": 0,
+    "authentication_latency": 0.0
+  },
+  "key_establishment_metrics": {
+    "key_establishment_attempts": 100,
+    "successful_exchanges": 100,
+    "failed_exchanges": 0,
+    "key_establishment_latency": 0.0
+  },
+  "encryption_metrics": {
+    "encryption_attempts": 1840,
+    "encryption_failures": 0,
+    "encryption_latency": 12.844399025198072
+  },
+  "decryption_metrics": {
+    "decryption_attempts": 1840,
+    "decryption_failures": 0,
+    "decryption_latency": 9.44310100749135
+  },
+  "security_overhead_metrics": {
+    "security_processing_time": 0.022287500032689422,
+    "network_processing_time": 0.01,
+    "combined_execution_time": 21.201817512512207,
+    "security_overhead": 0.10512070495624491
+  },
+  "resource_metrics": {
+    "cpu_time": "N/A",
+    "process_cpu_usage": "N/A",
+    "peak_memory_usage": "N/A",
+    "memory_delta": "N/A"
+  },
+  "communication_overhead_metrics": {
+    "plaintext_payload_bytes": 235520,
+    "protected_message_bytes": 312800,
+    "security_overhead_bytes": 77280,
+    "overhead_percentage": 32.8125
+  },
+  "adaptive_metrics": {
+    "rule_risk": "N/A",
+    "ml_risk": "N/A",
+    "fused_risk": "N/A",
+    "initial_security_mode": "N/A",
+    "final_security_mode": "N/A",
+    "transition_count": "N/A",
+    "transition_ticks": "N/A",
+    "hysteresis_behavior": "N/A",
+    "cooldown_behavior": "N/A",
+    "adaptive_orchestration_execution_time": "N/A"
+  },
+  "metrics": {
+    "execution_time_sec": 21.201817512512207
+  }
+}

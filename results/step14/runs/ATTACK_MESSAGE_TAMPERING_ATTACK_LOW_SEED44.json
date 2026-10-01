@@ -1,0 +1,51 @@
+{
+  "experiment_id": "ATTACK_MESSAGE_TAMPERING_ATTACK_LOW_SEED44",
+  "attack_type": "MESSAGE_TAMPERING_ATTACK",
+  "intensity": "LOW",
+  "seed": 44,
+  "simulation_duration": 6,
+  "status": "COMPLETED",
+  "ground_truth": {
+    "attack_id": "atk_1",
+    "attack_type": "MESSAGE_TAMPERING_ATTACK",
+    "attacker_id": "attacker_X",
+    "target_id": "core-0",
+    "context_id": "ctx_dev-0_core-0",
+    "start_tick": 5,
+    "end_tick": 10,
+    "intended_intensity": "LOW",
+    "attack_scheduled": true,
+    "attack_attempted": true,
+    "attack_injected": true,
+    "attempts_generated": 6,
+    "events_generated": 6
+  },
+  "security_observations": {
+    "authentication_failures": 0,
+    "replay_failures": 5,
+    "integrity_failures": 1,
+    "session_failures": 0,
+    "resource_pressure_injections": 0,
+    "mode_changed": 0,
+    "transition_source_mode": null,
+    "transition_target_mode": null,
+    "transition_latency_ticks": "N/A"
+  },
+  "risk": {
+    "rule_pre": 10.0,
+    "rule_post": 10.0,
+    "rule_delta": 0.0,
+    "ml_pre": 10.0,
+    "ml_post": 10.0,
+    "ml_delta": 0.0
+  },
+  "adaptive_response": {
+    "mode_pre": "CLASSICAL",
+    "mode_post": "CLASSICAL",
+    "transition_count": 0,
+    "transition_latency_ticks": "N/A"
+  },
+  "performance": {
+    "execution_time_seconds": 0.028085600002668798
+  }
+}

@@ -1,0 +1,662 @@
+[
+  {
+    "experiment_id": "STEP16_S1_CLASSICAL_SEED42",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S1_CLASSICAL_SEED43",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S1_CLASSICAL_SEED44",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S1_PQC_SEED42",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "PQC",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S1_PQC_SEED43",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "PQC",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S1_PQC_SEED44",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "PQC",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S1_HYBRID_SEED42",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S1_HYBRID_SEED43",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S1_HYBRID_SEED44",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S1_ADAPTIVE_HYBRID_SEED42",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S1_ADAPTIVE_HYBRID_SEED43",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S1_ADAPTIVE_HYBRID_SEED44",
+    "scale_id": "S1",
+    "scale_def": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S2_CLASSICAL_SEED42",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S2_CLASSICAL_SEED43",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S2_CLASSICAL_SEED44",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S2_PQC_SEED42",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "PQC",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S2_PQC_SEED43",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "PQC",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S2_PQC_SEED44",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "PQC",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S2_HYBRID_SEED42",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S2_HYBRID_SEED43",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S2_HYBRID_SEED44",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S2_ADAPTIVE_HYBRID_SEED42",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S2_ADAPTIVE_HYBRID_SEED43",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S2_ADAPTIVE_HYBRID_SEED44",
+    "scale_id": "S2",
+    "scale_def": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S3_CLASSICAL_SEED42",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S3_CLASSICAL_SEED43",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S3_CLASSICAL_SEED44",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S3_PQC_SEED42",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "PQC",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S3_PQC_SEED43",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "PQC",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S3_PQC_SEED44",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "PQC",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S3_HYBRID_SEED42",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S3_HYBRID_SEED43",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S3_HYBRID_SEED44",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S3_ADAPTIVE_HYBRID_SEED42",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S3_ADAPTIVE_HYBRID_SEED43",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S3_ADAPTIVE_HYBRID_SEED44",
+    "scale_id": "S3",
+    "scale_def": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S4_CLASSICAL_SEED42",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S4_CLASSICAL_SEED43",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S4_CLASSICAL_SEED44",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S4_PQC_SEED42",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "PQC",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S4_PQC_SEED43",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "PQC",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S4_PQC_SEED44",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "PQC",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S4_HYBRID_SEED42",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S4_HYBRID_SEED43",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S4_HYBRID_SEED44",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S4_ADAPTIVE_HYBRID_SEED42",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S4_ADAPTIVE_HYBRID_SEED43",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S4_ADAPTIVE_HYBRID_SEED44",
+    "scale_id": "S4",
+    "scale_def": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S5_CLASSICAL_SEED42",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S5_CLASSICAL_SEED43",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S5_CLASSICAL_SEED44",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "CLASSICAL",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S5_PQC_SEED42",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "PQC",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S5_PQC_SEED43",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "PQC",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S5_PQC_SEED44",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "PQC",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S5_HYBRID_SEED42",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S5_HYBRID_SEED43",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S5_HYBRID_SEED44",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP16_S5_ADAPTIVE_HYBRID_SEED42",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP16_S5_ADAPTIVE_HYBRID_SEED43",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP16_S5_ADAPTIVE_HYBRID_SEED44",
+    "scale_id": "S5",
+    "scale_def": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44
+  }
+]

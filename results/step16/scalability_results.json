@@ -1,0 +1,5042 @@
+[
+  {
+    "experiment_id": "STEP16_S1_CLASSICAL_SEED42",
+    "scale_id": "S1",
+    "security_mode": "CLASSICAL",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 13.810900039970875
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 16.37039997149259
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 5.940500239375979
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 5.084099888335913
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.041205900139175355,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.07892560958862305,
+      "security_overhead": 52.20852946711367
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 128936,
+      "security_overhead_bytes": 12712,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.001578512191772461,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.0008241180027835071,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 0.07892560958862305
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_CLASSICAL_SEED43",
+    "scale_id": "S1",
+    "security_mode": "CLASSICAL",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 14.236300135962665
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 8.096500241663307
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 5.670099577400833
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 4.63209964800626
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.032634999603033066,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.11073517799377441,
+      "security_overhead": 29.471212485762944
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 128936,
+      "security_overhead_bytes": 12712,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.002214703559875488,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.0006526999920606613,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 0.11073517799377441
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_CLASSICAL_SEED44",
+    "scale_id": "S1",
+    "security_mode": "CLASSICAL",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 13.470900186803192
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 7.983900257386267
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 5.494100390933454
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 4.424700455274433
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.031373601290397346,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.06741929054260254,
+      "security_overhead": 46.535051077958514
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 128936,
+      "security_overhead_bytes": 12712,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0013483858108520508,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.0006274720258079469,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 0.06741929054260254
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_PQC_SEED42",
+    "scale_id": "S1",
+    "security_mode": "PQC",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 9853.213199821766
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 1001.6559000359848
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 7.963499519973993
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 5.592099390923977
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 10.86842469876865,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 10.917834520339966,
+      "security_overhead": 99.54743936190582
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 141648,
+      "security_overhead_bytes": 25424,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.2183566904067993,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.21736849397537297,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 10.917834520339966
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_PQC_SEED43",
+    "scale_id": "S1",
+    "security_mode": "PQC",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 10912.396200059447
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 1043.0270996293984
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 7.0013998774811625
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 4.890200158115476
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 11.967314899724443,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 12.01280403137207,
+      "security_overhead": 99.62132794700696
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 141648,
+      "security_overhead_bytes": 25424,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.24025608062744142,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.23934629799448884,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 12.01280403137207
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_PQC_SEED44",
+    "scale_id": "S1",
+    "security_mode": "PQC",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 9756.291499827057
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 1025.8393998956308
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 7.392500177957118
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 5.395400687120855
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 10.794918800587766,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 10.891927242279053,
+      "security_overhead": 99.10935466668626
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 141648,
+      "security_overhead_bytes": 25424,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.21783854484558104,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.21589837601175532,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 10.891927242279053
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_HYBRID_SEED42",
+    "scale_id": "S1",
+    "security_mode": "HYBRID",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 9.960899944417179
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 7.995499414391816
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.017956399358808994,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 18.945051431655884,
+      "security_overhead": 0.0947814759098784
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 154360,
+      "security_overhead_bytes": 38136,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.3789010286331177,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.0003591279871761799,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 18.945051431655884
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_HYBRID_SEED43",
+    "scale_id": "S1",
+    "security_mode": "HYBRID",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 9.201300621498376
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 7.617100432980806
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.016818401054479182,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 16.492048025131226,
+      "security_overhead": 0.10197885083071943
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 154360,
+      "security_overhead_bytes": 38136,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.3298409605026245,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.0003363680210895836,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 16.492048025131226
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_HYBRID_SEED44",
+    "scale_id": "S1",
+    "security_mode": "HYBRID",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 9.497199906036258
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 7.462899782694876
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.016960099688731134,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 17.905357599258423,
+      "security_overhead": 0.09472080964992043
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 154360,
+      "security_overhead_bytes": 38136,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.35810715198516846,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.00033920199377462267,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 17.905357599258423
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_ADAPTIVE_HYBRID_SEED42",
+    "scale_id": "S1",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 28.66330067627132
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 9.594900941010565
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.038258201617281884,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 21.794267654418945,
+      "security_overhead": 0.17554249688002135
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 154360,
+      "security_overhead_bytes": 38136,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 21.794457499985583
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.4358853530883789,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.0007651640323456377,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 21.794267654418945
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_ADAPTIVE_HYBRID_SEED43",
+    "scale_id": "S1",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 27.91230008006096
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 9.611800021957606
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.037524100102018565,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 21.224485158920288,
+      "security_overhead": 0.17679627949066093
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 154360,
+      "security_overhead_bytes": 38136,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 21.224336899991613
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.4244897031784058,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.0007504820020403713,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 21.224485158920288
+    }
+  },
+  {
+    "experiment_id": "STEP16_S1_ADAPTIVE_HYBRID_SEED44",
+    "scale_id": "S1",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 50,
+      "edge_nodes": 5,
+      "core_nodes": 1,
+      "messages_generated": 491,
+      "responses_delivered": 454,
+      "failed_messages": 0,
+      "in_flight_messages": 37,
+      "average_response_latency": 1.0,
+      "throughput": 9.08
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 50,
+      "successful_authentications": 50,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 50,
+      "successful_exchanges": 50,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 908,
+      "encryption_failures": 0,
+      "encryption_latency": 33.54510013014078
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 908,
+      "decryption_failures": 0,
+      "decryption_latency": 10.810999316163361
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.04435609944630414,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 21.22666096687317,
+      "security_overhead": 0.20896409244735817
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 116224,
+      "protected_message_bytes": 154360,
+      "security_overhead_bytes": 38136,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 21.22664279997116
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.42453321933746335,
+      "messages_generated_per_device": 9.82,
+      "delivered_responses_per_device": 9.08,
+      "security_processing_time_per_device": 0.0008871219889260829,
+      "throughput_per_device": 0.1816,
+      "event_count_per_device": 20.16,
+      "scaling_ratio": 1.0
+    },
+    "metrics": {
+      "execution_time_sec": 21.22666096687317
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_CLASSICAL_SEED42",
+    "scale_id": "S2",
+    "security_mode": "CLASSICAL",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 41.0465999157168
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 23.57120020315051
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 17.23399927141145
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 15.214599727187306
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.09706639911746606,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.21401166915893555,
+      "security_overhead": 45.35565724006376
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 261280,
+      "security_overhead_bytes": 25760,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0021401166915893553,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.0009706639911746607,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 2.7115618146557194
+    },
+    "metrics": {
+      "execution_time_sec": 0.21401166915893555
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_CLASSICAL_SEED43",
+    "scale_id": "S2",
+    "security_mode": "CLASSICAL",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 40.85510008735582
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 23.56360014528036
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 16.952799633145332
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 71.40119996620342
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.15277269983198494,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.26698970794677734,
+      "security_overhead": 57.22044531485805
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 261280,
+      "security_overhead_bytes": 25760,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0026698970794677736,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.0015277269983198494,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 2.411064964033269
+    },
+    "metrics": {
+      "execution_time_sec": 0.26698970794677734
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_CLASSICAL_SEED44",
+    "scale_id": "S2",
+    "security_mode": "CLASSICAL",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 40.98759975749999
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 23.426900210324675
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 16.795100178569555
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 15.435800887644291
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.09664540103403851,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.20823216438293457,
+      "security_overhead": 46.41233083295895
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 261280,
+      "security_overhead_bytes": 25760,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0020823216438293456,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.0009664540103403852,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 3.0886139961878087
+    },
+    "metrics": {
+      "execution_time_sec": 0.20823216438293457
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_PQC_SEED42",
+    "scale_id": "S2",
+    "security_mode": "PQC",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 40685.523799969815
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 4083.5164001910016
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 29.766899533569813
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 23.608698567841202
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 44.82241579826223,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 45.07845497131348,
+      "security_overhead": 99.43201431101801
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 287040,
+      "security_overhead_bytes": 51520,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.45078454971313475,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.4482241579826223,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 4.128882415952738
+    },
+    "metrics": {
+      "execution_time_sec": 45.07845497131348
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_PQC_SEED43",
+    "scale_id": "S2",
+    "security_mode": "PQC",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 42555.64810032956
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 3892.2741998685524
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 30.02700093202293
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 23.999899276532233
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 46.50194920040667,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 46.69662046432495,
+      "security_overhead": 99.58311487644592
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 287040,
+      "security_overhead_bytes": 51520,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.4669662046432495,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.4650194920040667,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 3.8872373462827055
+    },
+    "metrics": {
+      "execution_time_sec": 46.69662046432495
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_PQC_SEED44",
+    "scale_id": "S2",
+    "security_mode": "PQC",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 41747.15090019163
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 4144.447599828709
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 28.848599351476878
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 22.542999940924346
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 45.94299009931274,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 46.19661545753479,
+      "security_overhead": 99.45098714330017
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 287040,
+      "security_overhead_bytes": 51520,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.4619661545753479,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.45942990099312736,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 4.241362839646412
+    },
+    "metrics": {
+      "execution_time_sec": 46.19661545753479
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_HYBRID_SEED42",
+    "scale_id": "S2",
+    "security_mode": "HYBRID",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 20.171500567812473
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 15.249699587002397
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.03542120015481487,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 45.0316002368927,
+      "security_overhead": 0.07865854193161807
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 312800,
+      "security_overhead_bytes": 77280,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.450316002368927,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.00035421200154814867,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 2.37695845795636
+    },
+    "metrics": {
+      "execution_time_sec": 45.0316002368927
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_HYBRID_SEED43",
+    "scale_id": "S2",
+    "security_mode": "HYBRID",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 19.694599555805326
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 15.594798722304404
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.03528939827810973,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 37.74732732772827,
+      "security_overhead": 0.09348846865824854
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 312800,
+      "security_overhead_bytes": 77280,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.3774732732772827,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.0003528939827810973,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 2.288819876719218
+    },
+    "metrics": {
+      "execution_time_sec": 37.74732732772827
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_HYBRID_SEED44",
+    "scale_id": "S2",
+    "security_mode": "HYBRID",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 18.36709980852902
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 14.10790003137663
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.03247499983990565,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 37.68275856971741,
+      "security_overhead": 0.08617999603140303
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 312800,
+      "security_overhead_bytes": 77280,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.37682758569717406,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.0003247499983990565,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 2.1045521353495946
+    },
+    "metrics": {
+      "execution_time_sec": 37.68275856971741
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_ADAPTIVE_HYBRID_SEED42",
+    "scale_id": "S2",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 56.26339797163382
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 18.76640011323616
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.07502979808486998,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 41.34136629104614,
+      "security_overhead": 0.18148843353810537
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 312800,
+      "security_overhead_bytes": 77280,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 41.340825199964456
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.41341366291046144,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.0007502979808486998,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 1.8968917399095941
+    },
+    "metrics": {
+      "execution_time_sec": 41.34136629104614
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_ADAPTIVE_HYBRID_SEED43",
+    "scale_id": "S2",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 37.856400304008275
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 13.715300592593849
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.051571700896602124,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 35.83191394805908,
+      "security_overhead": 0.14392672680381793
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 312800,
+      "security_overhead_bytes": 77280,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 35.83218339999439
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.3583191394805908,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.0005157170089660212,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 1.6882347760034848
+    },
+    "metrics": {
+      "execution_time_sec": 35.83191394805908
+    }
+  },
+  {
+    "experiment_id": "STEP16_S2_ADAPTIVE_HYBRID_SEED44",
+    "scale_id": "S2",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 100,
+      "edge_nodes": 10,
+      "core_nodes": 2,
+      "messages_generated": 981,
+      "responses_delivered": 920,
+      "failed_messages": 0,
+      "in_flight_messages": 61,
+      "average_response_latency": 1.0,
+      "throughput": 18.4
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 100,
+      "successful_authentications": 100,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 100,
+      "successful_exchanges": 100,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 1840,
+      "encryption_failures": 0,
+      "encryption_latency": 38.742800476029515
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 1840,
+      "decryption_failures": 0,
+      "decryption_latency": 13.686999445781112
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.05242979992181063,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 31.051944494247437,
+      "security_overhead": 0.16884546451357843
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 235520,
+      "protected_message_bytes": 312800,
+      "security_overhead_bytes": 77280,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 31.05191909999121
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.31051944494247435,
+      "messages_generated_per_device": 9.81,
+      "delivered_responses_per_device": 9.2,
+      "security_processing_time_per_device": 0.0005242979992181062,
+      "throughput_per_device": 0.184,
+      "event_count_per_device": 20.4,
+      "scaling_ratio": 1.4628746623271478
+    },
+    "metrics": {
+      "execution_time_sec": 31.051944494247437
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_CLASSICAL_SEED42",
+    "scale_id": "S3",
+    "security_mode": "CLASSICAL",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 77.1525000454858
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 43.711300124414265
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 28.66370091214776
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 23.770899686496705
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.17329840076854452,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.41202473640441895,
+      "security_overhead": 42.06019334684924
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 671660,
+      "security_overhead_bytes": 66220,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0016480989456176757,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.0006931936030741781,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 5.220418803883542
+    },
+    "metrics": {
+      "execution_time_sec": 0.41202473640441895
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_CLASSICAL_SEED43",
+    "scale_id": "S3",
+    "security_mode": "CLASSICAL",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 70.39799913764
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 40.898799372371286
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 34.42539687966928
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 31.049001321662217
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.17677119671134278,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.45203733444213867,
+      "security_overhead": 39.10544179486788
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 671660,
+      "security_overhead_bytes": 66220,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0018081493377685547,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.0007070847868453712,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 4.082147540030617
+    },
+    "metrics": {
+      "execution_time_sec": 0.45203733444213867
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_CLASSICAL_SEED44",
+    "scale_id": "S3",
+    "security_mode": "CLASSICAL",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 75.46100043691695
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 43.8646997208707
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 35.945402982179075
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 31.001000897958875
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.1862721040379256,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.473984956741333,
+      "security_overhead": 39.29915947513489
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 671660,
+      "security_overhead_bytes": 66220,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.001895939826965332,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.0007450884161517024,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 7.03040558461261
+    },
+    "metrics": {
+      "execution_time_sec": 0.473984956741333
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_PQC_SEED42",
+    "scale_id": "S3",
+    "security_mode": "PQC",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 54204.71220026957
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 5041.598099924158
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 45.15029658796266
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 35.82099766936153
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 59.32728159445105,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 59.613048791885376,
+      "security_overhead": 99.52062978957515
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 737880,
+      "security_overhead_bytes": 132440,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.23845219516754151,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.2373091263778042,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 5.460153172392021
+    },
+    "metrics": {
+      "execution_time_sec": 59.613048791885376
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_PQC_SEED43",
+    "scale_id": "S3",
+    "security_mode": "PQC",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 52960.83179989364
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 5051.211699959822
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 34.98580033192411
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 26.176700135692954
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 58.07320600032108,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 58.35940098762512,
+      "security_overhead": 99.50959916918146
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 737880,
+      "security_overhead_bytes": 132440,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.23343760395050048,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.23229282400128431,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 4.85809981043697
+    },
+    "metrics": {
+      "execution_time_sec": 58.35940098762512
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_PQC_SEED44",
+    "scale_id": "S3",
+    "security_mode": "PQC",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 50087.42630091729
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 5021.422000485472
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 38.25699811568484
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 30.09860002202913
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 55.17720389954047,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 55.492947816848755,
+      "security_overhead": 99.431019742634
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 737880,
+      "security_overhead_bytes": 132440,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.22197179126739502,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.22070881559816188,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 5.094869492098928
+    },
+    "metrics": {
+      "execution_time_sec": 55.492947816848755
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_HYBRID_SEED42",
+    "scale_id": "S3",
+    "security_mode": "HYBRID",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 35.14720173552632
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 27.593400154728442
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.06274060189025477,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 58.537578105926514,
+      "security_overhead": 0.10718004386297411
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 804100,
+      "security_overhead_bytes": 198660,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.23415031242370604,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.0002509624075610191,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 3.0898611342967497
+    },
+    "metrics": {
+      "execution_time_sec": 58.537578105926514
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_HYBRID_SEED43",
+    "scale_id": "S3",
+    "security_mode": "HYBRID",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 37.39909827709198
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 29.715102340560406
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.06711420061765239,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 58.34043478965759,
+      "security_overhead": 0.11503891059370401
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 804100,
+      "security_overhead_bytes": 198660,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.23336173915863037,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.0002684568024706095,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 3.5374887764549414
+    },
+    "metrics": {
+      "execution_time_sec": 58.34043478965759
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_HYBRID_SEED44",
+    "scale_id": "S3",
+    "security_mode": "HYBRID",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 36.36200272012502
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 28.608300199266523
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.06497030291939154,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 59.168378829956055,
+      "security_overhead": 0.10980578512402653
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 804100,
+      "security_overhead_bytes": 198660,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.23667351531982422,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.00025988121167756616,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 3.3045069612240865
+    },
+    "metrics": {
+      "execution_time_sec": 59.168378829956055
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_ADAPTIVE_HYBRID_SEED42",
+    "scale_id": "S3",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 66.87500147381797
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 26.496001926716417
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.09337100340053439,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 72.46793174743652,
+      "security_overhead": 0.12884458152600348
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 804100,
+      "security_overhead_bytes": 198660,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 72.46797409997089
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.2898717269897461,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.0003734840136021376,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 3.325091390843001
+    },
+    "metrics": {
+      "execution_time_sec": 72.46793174743652
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_ADAPTIVE_HYBRID_SEED43",
+    "scale_id": "S3",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 76.0708037414588
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 29.735101212281734
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.10580590495374054,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 72.47542357444763,
+      "security_overhead": 0.14598866724118614
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 804100,
+      "security_overhead_bytes": 198660,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 72.47484080004506
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.2899016942977905,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.00042322361981496213,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 3.4147082028977955
+    },
+    "metrics": {
+      "execution_time_sec": 72.47542357444763
+    }
+  },
+  {
+    "experiment_id": "STEP16_S3_ADAPTIVE_HYBRID_SEED44",
+    "scale_id": "S3",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 250,
+      "edge_nodes": 25,
+      "core_nodes": 5,
+      "messages_generated": 2515,
+      "responses_delivered": 2365,
+      "failed_messages": 0,
+      "in_flight_messages": 150,
+      "average_response_latency": 1.0,
+      "throughput": 47.3
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 250,
+      "successful_authentications": 250,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 250,
+      "successful_exchanges": 250,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 4730,
+      "encryption_failures": 0,
+      "encryption_latency": 71.56959769781679
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 4730,
+      "decryption_failures": 0,
+      "decryption_latency": 28.791900724172592
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.10036149842198938,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 72.44121408462524,
+      "security_overhead": 0.13854198841111068
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 605440,
+      "protected_message_bytes": 804100,
+      "security_overhead_bytes": 198660,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 72.44133260002127
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.28976485633850096,
+      "messages_generated_per_device": 10.06,
+      "delivered_responses_per_device": 9.46,
+      "security_processing_time_per_device": 0.00040144599368795755,
+      "throughput_per_device": 0.18919999999999998,
+      "event_count_per_device": 20.92,
+      "scaling_ratio": 3.4127465548009988
+    },
+    "metrics": {
+      "execution_time_sec": 72.44121408462524
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_CLASSICAL_SEED42",
+    "scale_id": "S4",
+    "security_mode": "CLASSICAL",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 157.2404004400596
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 89.62490042904392
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 57.704201084561646
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 52.21129895653576
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.3567808009102009,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.8625154495239258,
+      "security_overhead": 41.36514900772267
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1356384,
+      "security_overhead_bytes": 133728,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0017250308990478516,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.0007135616018204018,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 10.928207637793848
+    },
+    "metrics": {
+      "execution_time_sec": 0.8625154495239258
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_CLASSICAL_SEED43",
+    "scale_id": "S4",
+    "security_mode": "CLASSICAL",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 136.77230110624805
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 128.28240037197247
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 67.01060116756707
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 59.62560110492632
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.3916909037507139,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.9036712646484375,
+      "security_overhead": 43.3444017834402
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1356384,
+      "security_overhead_bytes": 133728,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.001807342529296875,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.0007833818075014278,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 8.160652116342309
+    },
+    "metrics": {
+      "execution_time_sec": 0.9036712646484375
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_CLASSICAL_SEED44",
+    "scale_id": "S4",
+    "security_mode": "CLASSICAL",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 140.99030091892928
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 80.45810036128387
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 61.0670032328926
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 53.92290040617809
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.33643830491928384,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 0.8526067733764648,
+      "security_overhead": 39.459961546743536
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1356384,
+      "security_overhead_bytes": 133728,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0017052135467529297,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.0006728766098385677,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 12.646332622525877
+    },
+    "metrics": {
+      "execution_time_sec": 0.8526067733764648
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_PQC_SEED42",
+    "scale_id": "S4",
+    "security_mode": "PQC",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 102712.95489929616
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 9924.644899496343
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 70.0780974002555
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 54.39560068771243
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 112.76207349688048,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 113.33834958076477,
+      "security_overhead": 99.49154360724687
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1490112,
+      "security_overhead_bytes": 267456,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.22667669916152955,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.22552414699376094,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 10.38102834125348
+    },
+    "metrics": {
+      "execution_time_sec": 113.33834958076477
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_PQC_SEED43",
+    "scale_id": "S4",
+    "security_mode": "PQC",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 101463.28279929003
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 9630.139499844518
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 67.37170030828565
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 180.0958978710696
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 111.3408898973139,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 111.7835042476654,
+      "security_overhead": 99.60404323220101
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1490112,
+      "security_overhead_bytes": 267456,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.22356700849533082,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.2226817797946278,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 9.305363173804958
+    },
+    "metrics": {
+      "execution_time_sec": 111.7835042476654
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_PQC_SEED44",
+    "scale_id": "S4",
+    "security_mode": "PQC",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 105948.20719992276
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 9732.379499357194
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 72.43440172169358
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 105.99809867562726
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 115.85901919967728,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 116.40390419960022,
+      "security_overhead": 99.53190143950101
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1490112,
+      "security_overhead_bytes": 267456,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.23280780839920043,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.23171803839935456,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 10.687172399367183
+    },
+    "metrics": {
+      "execution_time_sec": 116.40390419960022
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_HYBRID_SEED42",
+    "scale_id": "S4",
+    "security_mode": "HYBRID",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 68.16610117675737
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 53.49080514861271
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.12165690632537007,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 113.19270491600037,
+      "security_overhead": 0.10747769161948285
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1623840,
+      "security_overhead_bytes": 401184,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.22638540983200073,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.00024331381265074015,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 5.974790056619383
+    },
+    "metrics": {
+      "execution_time_sec": 113.19270491600037
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_HYBRID_SEED43",
+    "scale_id": "S4",
+    "security_mode": "HYBRID",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 68.64860182395205
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 113.54900046717376
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.1821976022911258,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 117.62748742103577,
+      "security_overhead": 0.15489372959142433
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1623840,
+      "security_overhead_bytes": 401184,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.23525497484207153,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.00036439520458225164,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 7.132375993678312
+    },
+    "metrics": {
+      "execution_time_sec": 117.62748742103577
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_HYBRID_SEED44",
+    "scale_id": "S4",
+    "security_mode": "HYBRID",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 63.17719892831519
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 46.8409993336536
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.11001819826196879,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 119.04645562171936,
+      "security_overhead": 0.09241618970291846
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1623840,
+      "security_overhead_bytes": 401184,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.23809291124343873,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.00022003639652393758,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 6.648649989914183
+    },
+    "metrics": {
+      "execution_time_sec": 119.04645562171936
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_ADAPTIVE_HYBRID_SEED42",
+    "scale_id": "S4",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 139.33350041043013
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 54.504302388522774
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.1938378027989529,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 147.2094762325287,
+      "security_overhead": 0.1316748131708391
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1623840,
+      "security_overhead_bytes": 401184,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 147.20972709998023
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.2944189524650574,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.00038767560559790584,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 6.754504375497146
+    },
+    "metrics": {
+      "execution_time_sec": 147.2094762325287
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_ADAPTIVE_HYBRID_SEED43",
+    "scale_id": "S4",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 139.0220956527628
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 52.95649915933609
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.1919785948120989,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 143.416166305542,
+      "security_overhead": 0.13386119553851183
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1623840,
+      "security_overhead_bytes": 401184,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 143.41620720003266
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.286832332611084,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.0003839571896241978,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 6.757109311801923
+    },
+    "metrics": {
+      "execution_time_sec": 143.416166305542
+    }
+  },
+  {
+    "experiment_id": "STEP16_S4_ADAPTIVE_HYBRID_SEED44",
+    "scale_id": "S4",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 500,
+      "edge_nodes": 50,
+      "core_nodes": 10,
+      "messages_generated": 5024,
+      "responses_delivered": 4776,
+      "failed_messages": 0,
+      "in_flight_messages": 248,
+      "average_response_latency": 1.0,
+      "throughput": 95.52
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 500,
+      "successful_authentications": 500,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 500,
+      "successful_exchanges": 500,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 9552,
+      "encryption_failures": 0,
+      "encryption_latency": 176.2797994306311
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 9552,
+      "decryption_failures": 0,
+      "decryption_latency": 58.39660100173205
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.23467640043236315,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 146.1365041732788,
+      "security_overhead": 0.16058711802363887
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 1222656,
+      "protected_message_bytes": 1623840,
+      "security_overhead_bytes": 401184,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 146.13662679999834
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.2922730083465576,
+      "messages_generated_per_device": 10.048,
+      "delivered_responses_per_device": 9.552,
+      "security_processing_time_per_device": 0.0004693528008647263,
+      "throughput_per_device": 0.19104,
+      "event_count_per_device": 21.104,
+      "scaling_ratio": 6.884573339223861
+    },
+    "metrics": {
+      "execution_time_sec": 146.1365041732788
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_CLASSICAL_SEED42",
+    "scale_id": "S5",
+    "security_mode": "CLASSICAL",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 264.0198993613012
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 154.4007992488332
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 101.55980486888438
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 88.352600869257
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.6083331043482758,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 1.6669042110443115,
+      "security_overhead": 36.494784782333504
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 2665624,
+      "security_overhead_bytes": 262808,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0016669042110443115,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.0006083331043482759,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 21.1199409131278
+    },
+    "metrics": {
+      "execution_time_sec": 1.6669042110443115
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_CLASSICAL_SEED43",
+    "scale_id": "S5",
+    "security_mode": "CLASSICAL",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 255.9760005096905
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 145.52849828032777
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 99.81929854257032
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 88.26240064809099
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.5895861979806796,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 1.5374455451965332,
+      "security_overhead": 38.34842800271747
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 2665624,
+      "security_overhead_bytes": 262808,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0015374455451965332,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.0005895861979806796,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 13.88398495447372
+    },
+    "metrics": {
+      "execution_time_sec": 1.5374455451965332
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_CLASSICAL_SEED44",
+    "scale_id": "S5",
+    "security_mode": "CLASSICAL",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 269.387100241147
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 159.45060027297586
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 110.25780392810702
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 198.30048986477777
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.7373959943070076,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 1.7534022331237793,
+      "security_overhead": 42.05515314037769
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 2665624,
+      "security_overhead_bytes": 262808,
+      "overhead_percentage": 10.9375
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.0017534022331237792,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.0007373959943070077,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 26.007426346555768
+    },
+    "metrics": {
+      "execution_time_sec": 1.7534022331237793
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_PQC_SEED42",
+    "scale_id": "S5",
+    "security_mode": "PQC",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 185357.99170087557
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 16966.750100953504
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 120.63059641513973
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 88.53090420598164
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 202.5339033024502,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 203.6348955631256,
+      "security_overhead": 99.45933025986005
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 2928432,
+      "security_overhead_bytes": 525616,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.2036348955631256,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.2025339033024502,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 18.651582892537256
+    },
+    "metrics": {
+      "execution_time_sec": 203.6348955631256
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_PQC_SEED43",
+    "scale_id": "S5",
+    "security_mode": "PQC",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 199219.84200022416
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 18550.15009973431
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 146.99890336487442
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 163.06369745871052
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 218.08005470078206,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 219.33018231391907,
+      "security_overhead": 99.43002481466607
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 2928432,
+      "security_overhead_bytes": 525616,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.21933018231391907,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.21808005470078207,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 18.258033823004748
+    },
+    "metrics": {
+      "execution_time_sec": 219.33018231391907
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_PQC_SEED44",
+    "scale_id": "S5",
+    "security_mode": "PQC",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 206102.11799968965
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 19353.095199214295
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 136.35739794699475
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 103.10869995737448
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 225.69467929680832,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 226.79268598556519,
+      "security_overhead": 99.5158544536014
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 2928432,
+      "security_overhead_bytes": 525616,
+      "overhead_percentage": 21.875
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.22679268598556518,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.2256946792968083,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 20.82208969457921
+    },
+    "metrics": {
+      "execution_time_sec": 226.79268598556519
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_HYBRID_SEED42",
+    "scale_id": "S5",
+    "security_mode": "HYBRID",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 132.6194981811568
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 178.6379985860549
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.3112574967672117,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 231.72495102882385,
+      "security_overhead": 0.1343219603177281
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 3191240,
+      "security_overhead_bytes": 788424,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.23172495102882384,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.0003112574967672117,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 12.231423697358103
+    },
+    "metrics": {
+      "execution_time_sec": 231.72495102882385
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_HYBRID_SEED43",
+    "scale_id": "S5",
+    "security_mode": "HYBRID",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 143.13960314029828
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 110.33389926888049
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.25347350240917876,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 248.73997259140015,
+      "security_overhead": 0.10190300327223814
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 3191240,
+      "security_overhead_bytes": 788424,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.24873997259140015,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.00025347350240917876,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 15.082418642751978
+    },
+    "metrics": {
+      "execution_time_sec": 248.73997259140015
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_HYBRID_SEED44",
+    "scale_id": "S5",
+    "security_mode": "HYBRID",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 146.2843042681925
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 115.80269818659872
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.2620870024547912,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 244.81905126571655,
+      "security_overhead": 0.10705335271082835
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 3191240,
+      "security_overhead_bytes": 788424,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": "N/A",
+      "ml_risk": "N/A",
+      "fused_risk": "N/A",
+      "initial_mode": "N/A",
+      "final_mode": "N/A",
+      "transition_count": "N/A",
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": "N/A"
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.24481905126571654,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.00026208700245479124,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 13.672949557614873
+    },
+    "metrics": {
+      "execution_time_sec": 244.81905126571655
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_ADAPTIVE_HYBRID_SEED42",
+    "scale_id": "S5",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 321.05929945828393
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 295.67679640604183
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.6167360958643258,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 297.99624395370483,
+      "security_overhead": 0.206961030005512
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 3191240,
+      "security_overhead_bytes": 788424,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 297.9967439000029
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.29799624395370483,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.0006167360958643258,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 13.673147851484881
+    },
+    "metrics": {
+      "execution_time_sec": 297.99624395370483
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_ADAPTIVE_HYBRID_SEED43",
+    "scale_id": "S5",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 311.79289711872116
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 107.46649926295504
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.4192593963816762,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 291.4185655117035,
+      "security_overhead": 0.1438684579499924
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 3191240,
+      "security_overhead_bytes": 788424,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 291.4175513999653
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.2914185655117035,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.0004192593963816762,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 13.73030079786059
+    },
+    "metrics": {
+      "execution_time_sec": 291.4185655117035
+    }
+  },
+  {
+    "experiment_id": "STEP16_S5_ADAPTIVE_HYBRID_SEED44",
+    "scale_id": "S5",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44,
+    "network_configuration": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20
+    },
+    "workload_configuration": {
+      "duration": 50,
+      "message_generation_rate": 0.2,
+      "payload_size": 256
+    },
+    "status": "COMPLETED",
+    "network_metrics": {
+      "devices": 1000,
+      "edge_nodes": 100,
+      "core_nodes": 20,
+      "messages_generated": 9981,
+      "responses_delivered": 9386,
+      "failed_messages": 0,
+      "in_flight_messages": 595,
+      "average_response_latency": 1.0,
+      "throughput": 187.72
+    },
+    "authentication_metrics": {
+      "authentication_attempts": 1000,
+      "successful_authentications": 1000,
+      "authentication_failures": 0,
+      "authentication_latency": 0.0
+    },
+    "key_establishment_metrics": {
+      "key_establishment_attempts": 1000,
+      "successful_exchanges": 1000,
+      "failures": 0,
+      "key_establishment_latency": 0.0
+    },
+    "encryption_metrics": {
+      "encryption_attempts": 18772,
+      "encryption_failures": 0,
+      "encryption_latency": 301.9020966021344
+    },
+    "decryption_metrics": {
+      "decryption_attempts": 18772,
+      "decryption_failures": 0,
+      "decryption_latency": 198.71059659635648
+    },
+    "security_overhead_metrics": {
+      "security_processing_time": 0.5006126931984909,
+      "network_processing_proxy": 0.01,
+      "combined_execution_time": 294.94496750831604,
+      "security_overhead": 0.1697308814683797
+    },
+    "communication_overhead_metrics": {
+      "plaintext_payload_bytes": 2402816,
+      "protected_message_bytes": 3191240,
+      "security_overhead_bytes": 788424,
+      "overhead_percentage": 32.8125
+    },
+    "adaptive_metrics": {
+      "rule_risk": 10.0,
+      "ml_risk": 10.0,
+      "fused_risk": 10.0,
+      "initial_mode": "CLASSICAL",
+      "final_mode": "CLASSICAL",
+      "transition_count": 0,
+      "transition_ticks": "N/A",
+      "adaptive_orchestration_execution_time": 294.9453639999847
+    },
+    "scalability_metrics": {
+      "execution_time_per_device": 0.29494496750831606,
+      "messages_generated_per_device": 9.981,
+      "delivered_responses_per_device": 9.386,
+      "security_processing_time_per_device": 0.0005006126931984909,
+      "throughput_per_device": 0.18772,
+      "event_count_per_device": 20.772,
+      "scaling_ratio": 13.895024185321194
+    },
+    "metrics": {
+      "execution_time_sec": 294.94496750831604
+    }
+  }
+]

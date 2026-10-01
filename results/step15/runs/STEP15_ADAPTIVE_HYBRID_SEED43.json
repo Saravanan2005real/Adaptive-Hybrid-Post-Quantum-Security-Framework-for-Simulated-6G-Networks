@@ -1,0 +1,76 @@
+{
+  "experiment_id": "STEP15_ADAPTIVE_HYBRID_SEED43",
+  "security_mode": "ADAPTIVE_HYBRID",
+  "seed": 43,
+  "configuration": {
+    "network": "default_network.yaml",
+    "duration": 50,
+    "devices": 100,
+    "edges": 10,
+    "cores": 2
+  },
+  "status": "COMPLETED",
+  "network_metrics": {
+    "messages_generated": 981,
+    "responses_delivered": 920,
+    "failed_messages": 0,
+    "in_flight_messages": 61,
+    "average_response_latency": 1.0,
+    "throughput": 18.4
+  },
+  "authentication_metrics": {
+    "authentication_attempts": 100,
+    "successful_authentications": 100,
+    "authentication_failures": 0,
+    "authentication_latency": 0.0
+  },
+  "key_establishment_metrics": {
+    "key_establishment_attempts": 100,
+    "successful_exchanges": 100,
+    "failed_exchanges": 0,
+    "key_establishment_latency": 0.0
+  },
+  "encryption_metrics": {
+    "encryption_attempts": 1840,
+    "encryption_failures": 0,
+    "encryption_latency": 37.322598858736455
+  },
+  "decryption_metrics": {
+    "decryption_attempts": 1840,
+    "decryption_failures": 0,
+    "decryption_latency": 12.837099086027592
+  },
+  "security_overhead_metrics": {
+    "security_processing_time": 0.05015969794476405,
+    "network_processing_time": 0.01,
+    "combined_execution_time": 28.80616569519043,
+    "security_overhead": 0.17412833931292312
+  },
+  "resource_metrics": {
+    "cpu_time": "N/A",
+    "process_cpu_usage": "N/A",
+    "peak_memory_usage": "N/A",
+    "memory_delta": "N/A"
+  },
+  "communication_overhead_metrics": {
+    "plaintext_payload_bytes": 235520,
+    "protected_message_bytes": 312800,
+    "security_overhead_bytes": 77280,
+    "overhead_percentage": 32.8125
+  },
+  "adaptive_metrics": {
+    "rule_risk": 10.0,
+    "ml_risk": 10.0,
+    "fused_risk": 10.0,
+    "initial_security_mode": "CLASSICAL",
+    "final_security_mode": "CLASSICAL",
+    "transition_count": 0,
+    "transition_ticks": "N/A",
+    "hysteresis_behavior": "N/A",
+    "cooldown_behavior": "N/A",
+    "adaptive_orchestration_execution_time": 28.80572459998075
+  },
+  "metrics": {
+    "execution_time_sec": 28.80616569519043
+  }
+}

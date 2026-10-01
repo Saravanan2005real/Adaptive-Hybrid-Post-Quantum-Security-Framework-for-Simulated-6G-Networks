@@ -1,0 +1,84 @@
+{
+  "experiment_id": "STEP16_S2_CLASSICAL_SEED42",
+  "scale_id": "S2",
+  "security_mode": "CLASSICAL",
+  "seed": 42,
+  "network_configuration": {
+    "devices": 100,
+    "edge_nodes": 10,
+    "core_nodes": 2
+  },
+  "workload_configuration": {
+    "duration": 50,
+    "message_generation_rate": 0.2,
+    "payload_size": 256
+  },
+  "status": "COMPLETED",
+  "network_metrics": {
+    "devices": 100,
+    "edge_nodes": 10,
+    "core_nodes": 2,
+    "messages_generated": 981,
+    "responses_delivered": 920,
+    "failed_messages": 0,
+    "in_flight_messages": 61,
+    "average_response_latency": 1.0,
+    "throughput": 18.4
+  },
+  "authentication_metrics": {
+    "authentication_attempts": 100,
+    "successful_authentications": 100,
+    "authentication_failures": 0,
+    "authentication_latency": 41.0465999157168
+  },
+  "key_establishment_metrics": {
+    "key_establishment_attempts": 100,
+    "successful_exchanges": 100,
+    "failures": 0,
+    "key_establishment_latency": 23.57120020315051
+  },
+  "encryption_metrics": {
+    "encryption_attempts": 1840,
+    "encryption_failures": 0,
+    "encryption_latency": 17.23399927141145
+  },
+  "decryption_metrics": {
+    "decryption_attempts": 1840,
+    "decryption_failures": 0,
+    "decryption_latency": 15.214599727187306
+  },
+  "security_overhead_metrics": {
+    "security_processing_time": 0.09706639911746606,
+    "network_processing_proxy": 0.01,
+    "combined_execution_time": 0.21401166915893555,
+    "security_overhead": 45.35565724006376
+  },
+  "communication_overhead_metrics": {
+    "plaintext_payload_bytes": 235520,
+    "protected_message_bytes": 261280,
+    "security_overhead_bytes": 25760,
+    "overhead_percentage": 10.9375
+  },
+  "adaptive_metrics": {
+    "rule_risk": "N/A",
+    "ml_risk": "N/A",
+    "fused_risk": "N/A",
+    "initial_mode": "N/A",
+    "final_mode": "N/A",
+    "transition_count": "N/A",
+    "transition_ticks": "N/A",
+    "adaptive_orchestration_execution_time": "N/A"
+  },
+  "scalability_metrics": {
+    "execution_time_per_device": 0.0021401166915893553,
+    "messages_generated_per_device": 9.81,
+    "delivered_responses_per_device": 9.2,
+    "security_processing_time_per_device": 0.0009706639911746607,
+    "throughput_per_device": 0.184,
+    "event_count_per_device": 20.4,
+    "scaling_ratio": 2.7115618146557194
+  },
+  "metrics": {
+    "execution_time_sec": 0.21401166915893555
+  }
+}

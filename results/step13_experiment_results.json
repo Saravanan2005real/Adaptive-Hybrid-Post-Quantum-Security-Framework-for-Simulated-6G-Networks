@@ -1,0 +1,601 @@
+{
+  "seed": 42,
+  "summary": {
+    "total_scenarios": 11,
+    "total_events_processed": 630,
+    "execution_time_sec": 0.3387992999050766
+  },
+  "scenarios": [
+    {
+      "scenario_id": "CONTROL",
+      "attack_type": "NO_ATTACK",
+      "intensity": "N/A",
+      "ground_truth": {},
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 0,
+        "replay_failures": 0,
+        "integrity_failures": 0,
+        "session_failures": 0,
+        "resource_pressure_injections": 0,
+        "mode_changed": 0,
+        "transition_source_mode": null,
+        "transition_target_mode": null,
+        "transition_latency_ticks": "N/A"
+      },
+      "post_state": {
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "metrics": {
+        "risk_delta": 0.0,
+        "ml_risk_delta": 0.0,
+        "attack_attempts": 0,
+        "attack_injections": 0,
+        "execution_time_sec": 0.030698099988512695,
+        "processed_attack_events": 0
+      }
+    },
+    {
+      "scenario_id": "SCENARIO_A",
+      "attack_type": "AUTHENTICATION_ATTACK",
+      "intensity": "LOW",
+      "ground_truth": {
+        "attack_id": "atk_1",
+        "attack_type": "AUTHENTICATION_ATTACK",
+        "attacker_id": "attacker_X",
+        "target_id": "core-0",
+        "context_id": "ctx_dev-0_core-0",
+        "start_tick": 5,
+        "end_tick": 10,
+        "intended_intensity": "LOW",
+        "attack_scheduled": true,
+        "attack_attempted": true,
+        "attack_injected": true,
+        "attempts_generated": 6,
+        "events_generated": 6
+      },
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 6,
+        "replay_failures": 0,
+        "integrity_failures": 0,
+        "session_failures": 0,
+        "resource_pressure_injections": 0,
+        "mode_changed": 1,
+        "transition_source_mode": "CLASSICAL",
+        "transition_target_mode": "PQC",
+        "transition_latency_ticks": 0
+      },
+      "post_state": {
+        "security_mode": "HYBRID",
+        "rule_risk_score": 45.0,
+        "rule_risk_level": "MEDIUM",
+        "ml_risk_score": 45.0,
+        "ml_risk_level": "MEDIUM"
+      },
+      "metrics": {
+        "risk_delta": 35.0,
+        "ml_risk_delta": 35.0,
+        "attack_attempts": 6,
+        "attack_injections": 6,
+        "execution_time_sec": 0.030168699973728508,
+        "processed_attack_events": 6
+      }
+    },
+    {
+      "scenario_id": "SCENARIO_B",
+      "attack_type": "AUTHENTICATION_ATTACK",
+      "intensity": "HIGH",
+      "ground_truth": {
+        "attack_id": "atk_1",
+        "attack_type": "AUTHENTICATION_ATTACK",
+        "attacker_id": "attacker_X",
+        "target_id": "core-0",
+        "context_id": "ctx_dev-0_core-0",
+        "start_tick": 5,
+        "end_tick": 10,
+        "intended_intensity": "HIGH",
+        "attack_scheduled": true,
+        "attack_attempted": true,
+        "attack_injected": true,
+        "attempts_generated": 120,
+        "events_generated": 120
+      },
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 120,
+        "replay_failures": 0,
+        "integrity_failures": 0,
+        "session_failures": 0,
+        "resource_pressure_injections": 0,
+        "mode_changed": 1,
+        "transition_source_mode": "CLASSICAL",
+        "transition_target_mode": "HYBRID",
+        "transition_latency_ticks": 0
+      },
+      "post_state": {
+        "security_mode": "HYBRID",
+        "rule_risk_score": 45.0,
+        "rule_risk_level": "MEDIUM",
+        "ml_risk_score": 45.0,
+        "ml_risk_level": "MEDIUM"
+      },
+      "metrics": {
+        "risk_delta": 35.0,
+        "ml_risk_delta": 35.0,
+        "attack_attempts": 120,
+        "attack_injections": 120,
+        "execution_time_sec": 0.040336200036108494,
+        "processed_attack_events": 120
+      }
+    },
+    {
+      "scenario_id": "SCENARIO_C",
+      "attack_type": "REPLAY_ATTACK",
+      "intensity": "LOW",
+      "ground_truth": {
+        "attack_id": "atk_1",
+        "attack_type": "REPLAY_ATTACK",
+        "attacker_id": "attacker_X",
+        "target_id": "core-0",
+        "context_id": "ctx_dev-0_core-0",
+        "start_tick": 5,
+        "end_tick": 10,
+        "intended_intensity": "LOW",
+        "attack_scheduled": true,
+        "attack_attempted": true,
+        "attack_injected": true,
+        "attempts_generated": 6,
+        "events_generated": 6
+      },
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 0,
+        "replay_failures": 5,
+        "integrity_failures": 0,
+        "session_failures": 0,
+        "resource_pressure_injections": 0,
+        "mode_changed": 0,
+        "transition_source_mode": null,
+        "transition_target_mode": null,
+        "transition_latency_ticks": "N/A"
+      },
+      "post_state": {
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "metrics": {
+        "risk_delta": 0.0,
+        "ml_risk_delta": 0.0,
+        "attack_attempts": 6,
+        "attack_injections": 6,
+        "execution_time_sec": 0.029343799978960305,
+        "processed_attack_events": 6
+      }
+    },
+    {
+      "scenario_id": "SCENARIO_D",
+      "attack_type": "REPLAY_ATTACK",
+      "intensity": "HIGH",
+      "ground_truth": {
+        "attack_id": "atk_1",
+        "attack_type": "REPLAY_ATTACK",
+        "attacker_id": "attacker_X",
+        "target_id": "core-0",
+        "context_id": "ctx_dev-0_core-0",
+        "start_tick": 5,
+        "end_tick": 10,
+        "intended_intensity": "HIGH",
+        "attack_scheduled": true,
+        "attack_attempted": true,
+        "attack_injected": true,
+        "attempts_generated": 120,
+        "events_generated": 120
+      },
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 0,
+        "replay_failures": 119,
+        "integrity_failures": 0,
+        "session_failures": 0,
+        "resource_pressure_injections": 0,
+        "mode_changed": 0,
+        "transition_source_mode": null,
+        "transition_target_mode": null,
+        "transition_latency_ticks": "N/A"
+      },
+      "post_state": {
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "metrics": {
+        "risk_delta": 0.0,
+        "ml_risk_delta": 0.0,
+        "attack_attempts": 120,
+        "attack_injections": 120,
+        "execution_time_sec": 0.031711500021629035,
+        "processed_attack_events": 120
+      }
+    },
+    {
+      "scenario_id": "SCENARIO_E",
+      "attack_type": "MESSAGE_TAMPERING_ATTACK",
+      "intensity": "LOW",
+      "ground_truth": {
+        "attack_id": "atk_1",
+        "attack_type": "MESSAGE_TAMPERING_ATTACK",
+        "attacker_id": "attacker_X",
+        "target_id": "core-0",
+        "context_id": "ctx_dev-0_core-0",
+        "start_tick": 5,
+        "end_tick": 10,
+        "intended_intensity": "LOW",
+        "attack_scheduled": true,
+        "attack_attempted": true,
+        "attack_injected": true,
+        "attempts_generated": 6,
+        "events_generated": 6
+      },
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 0,
+        "replay_failures": 5,
+        "integrity_failures": 1,
+        "session_failures": 0,
+        "resource_pressure_injections": 0,
+        "mode_changed": 0,
+        "transition_source_mode": null,
+        "transition_target_mode": null,
+        "transition_latency_ticks": "N/A"
+      },
+      "post_state": {
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "metrics": {
+        "risk_delta": 0.0,
+        "ml_risk_delta": 0.0,
+        "attack_attempts": 6,
+        "attack_injections": 6,
+        "execution_time_sec": 0.028468000004068017,
+        "processed_attack_events": 6
+      }
+    },
+    {
+      "scenario_id": "SCENARIO_F",
+      "attack_type": "MESSAGE_TAMPERING_ATTACK",
+      "intensity": "HIGH",
+      "ground_truth": {
+        "attack_id": "atk_1",
+        "attack_type": "MESSAGE_TAMPERING_ATTACK",
+        "attacker_id": "attacker_X",
+        "target_id": "core-0",
+        "context_id": "ctx_dev-0_core-0",
+        "start_tick": 5,
+        "end_tick": 10,
+        "intended_intensity": "HIGH",
+        "attack_scheduled": true,
+        "attack_attempted": true,
+        "attack_injected": true,
+        "attempts_generated": 120,
+        "events_generated": 120
+      },
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 0,
+        "replay_failures": 119,
+        "integrity_failures": 1,
+        "session_failures": 0,
+        "resource_pressure_injections": 0,
+        "mode_changed": 0,
+        "transition_source_mode": null,
+        "transition_target_mode": null,
+        "transition_latency_ticks": "N/A"
+      },
+      "post_state": {
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "metrics": {
+        "risk_delta": 0.0,
+        "ml_risk_delta": 0.0,
+        "attack_attempts": 120,
+        "attack_injections": 120,
+        "execution_time_sec": 0.03249459998914972,
+        "processed_attack_events": 120
+      }
+    },
+    {
+      "scenario_id": "SCENARIO_G",
+      "attack_type": "SESSION_ABUSE_ATTACK",
+      "intensity": "LOW",
+      "ground_truth": {
+        "attack_id": "atk_1",
+        "attack_type": "SESSION_ABUSE_ATTACK",
+        "attacker_id": "attacker_X",
+        "target_id": "core-0",
+        "context_id": "ctx_dev-0_core-0",
+        "start_tick": 5,
+        "end_tick": 10,
+        "intended_intensity": "LOW",
+        "attack_scheduled": true,
+        "attack_attempted": true,
+        "attack_injected": true,
+        "attempts_generated": 6,
+        "events_generated": 6
+      },
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 6,
+        "replay_failures": 0,
+        "integrity_failures": 0,
+        "session_failures": 0,
+        "resource_pressure_injections": 0,
+        "mode_changed": 1,
+        "transition_source_mode": "CLASSICAL",
+        "transition_target_mode": "PQC",
+        "transition_latency_ticks": 0
+      },
+      "post_state": {
+        "security_mode": "HYBRID",
+        "rule_risk_score": 45.0,
+        "rule_risk_level": "MEDIUM",
+        "ml_risk_score": 45.0,
+        "ml_risk_level": "MEDIUM"
+      },
+      "metrics": {
+        "risk_delta": 35.0,
+        "ml_risk_delta": 35.0,
+        "attack_attempts": 6,
+        "attack_injections": 6,
+        "execution_time_sec": 0.028352499997708946,
+        "processed_attack_events": 6
+      }
+    },
+    {
+      "scenario_id": "SCENARIO_H",
+      "attack_type": "SESSION_ABUSE_ATTACK",
+      "intensity": "HIGH",
+      "ground_truth": {
+        "attack_id": "atk_1",
+        "attack_type": "SESSION_ABUSE_ATTACK",
+        "attacker_id": "attacker_X",
+        "target_id": "core-0",
+        "context_id": "ctx_dev-0_core-0",
+        "start_tick": 5,
+        "end_tick": 10,
+        "intended_intensity": "HIGH",
+        "attack_scheduled": true,
+        "attack_attempted": true,
+        "attack_injected": true,
+        "attempts_generated": 120,
+        "events_generated": 120
+      },
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 120,
+        "replay_failures": 0,
+        "integrity_failures": 0,
+        "session_failures": 0,
+        "resource_pressure_injections": 0,
+        "mode_changed": 1,
+        "transition_source_mode": "CLASSICAL",
+        "transition_target_mode": "HYBRID",
+        "transition_latency_ticks": 0
+      },
+      "post_state": {
+        "security_mode": "HYBRID",
+        "rule_risk_score": 45.0,
+        "rule_risk_level": "MEDIUM",
+        "ml_risk_score": 45.0,
+        "ml_risk_level": "MEDIUM"
+      },
+      "metrics": {
+        "risk_delta": 35.0,
+        "ml_risk_delta": 35.0,
+        "attack_attempts": 120,
+        "attack_injections": 120,
+        "execution_time_sec": 0.029931599972769618,
+        "processed_attack_events": 120
+      }
+    },
+    {
+      "scenario_id": "SCENARIO_I",
+      "attack_type": "RESOURCE_PRESSURE_ATTACK",
+      "intensity": "LOW",
+      "ground_truth": {
+        "attack_id": "atk_1",
+        "attack_type": "RESOURCE_PRESSURE_ATTACK",
+        "attacker_id": "attacker_X",
+        "target_id": "core-0",
+        "context_id": "ctx_dev-0_core-0",
+        "start_tick": 5,
+        "end_tick": 10,
+        "intended_intensity": "LOW",
+        "attack_scheduled": true,
+        "attack_attempted": true,
+        "attack_injected": true,
+        "attempts_generated": 6,
+        "events_generated": 6
+      },
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 0,
+        "replay_failures": 0,
+        "integrity_failures": 0,
+        "session_failures": 0,
+        "resource_pressure_injections": 6,
+        "mode_changed": 0,
+        "transition_source_mode": null,
+        "transition_target_mode": null,
+        "transition_latency_ticks": "N/A"
+      },
+      "post_state": {
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "metrics": {
+        "risk_delta": 0.0,
+        "ml_risk_delta": 0.0,
+        "attack_attempts": 6,
+        "attack_injections": 6,
+        "execution_time_sec": 0.0289904999663122,
+        "processed_attack_events": 6
+      }
+    },
+    {
+      "scenario_id": "SCENARIO_J",
+      "attack_type": "RESOURCE_PRESSURE_ATTACK",
+      "intensity": "HIGH",
+      "ground_truth": {
+        "attack_id": "atk_1",
+        "attack_type": "RESOURCE_PRESSURE_ATTACK",
+        "attacker_id": "attacker_X",
+        "target_id": "core-0",
+        "context_id": "ctx_dev-0_core-0",
+        "start_tick": 5,
+        "end_tick": 10,
+        "intended_intensity": "HIGH",
+        "attack_scheduled": true,
+        "attack_attempted": true,
+        "attack_injected": true,
+        "attempts_generated": 120,
+        "events_generated": 120
+      },
+      "pre_state": {
+        "context_id": "ctx_dev-0_core-0",
+        "entity_id": "dev-0",
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "response": {
+        "authentication_failures": 0,
+        "replay_failures": 0,
+        "integrity_failures": 0,
+        "session_failures": 0,
+        "resource_pressure_injections": 120,
+        "mode_changed": 0,
+        "transition_source_mode": null,
+        "transition_target_mode": null,
+        "transition_latency_ticks": "N/A"
+      },
+      "post_state": {
+        "security_mode": "CLASSICAL",
+        "rule_risk_score": 10.0,
+        "rule_risk_level": "LOW",
+        "ml_risk_score": 10.0,
+        "ml_risk_level": "LOW"
+      },
+      "metrics": {
+        "risk_delta": 0.0,
+        "ml_risk_delta": 0.0,
+        "attack_attempts": 120,
+        "attack_injections": 120,
+        "execution_time_sec": 0.028303799976129085,
+        "processed_attack_events": 120
+      }
+    }
+  ]
+}

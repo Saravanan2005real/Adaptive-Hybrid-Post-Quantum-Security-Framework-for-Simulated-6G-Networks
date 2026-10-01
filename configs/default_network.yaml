@@ -1,0 +1,17 @@
+network:
+  num_devices: 100
+  num_edge_nodes: 10
+  num_core_nodes: 2
+  node_capabilities:
+    device:
+      compute: 10.0
+      memory: 16.0
+      battery: 100.0
+    edge:
+      capacity: 100.0
+    core:
+      capacity: 1000.0
+simulation:
+  duration: 50
+  random_seed: 42
+  message_generation_rate: 0.2

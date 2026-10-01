@@ -1,0 +1,290 @@
+[
+  {
+    "experiment_id": "NO_ATTACK_SEED42",
+    "attack_type": "NO_ATTACK",
+    "intensity": "N/A",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_AUTHENTICATION_ATTACK_LOW_SEED42",
+    "attack_type": "AUTHENTICATION_ATTACK",
+    "intensity": "LOW",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_AUTHENTICATION_ATTACK_MEDIUM_SEED42",
+    "attack_type": "AUTHENTICATION_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_AUTHENTICATION_ATTACK_HIGH_SEED42",
+    "attack_type": "AUTHENTICATION_ATTACK",
+    "intensity": "HIGH",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_REPLAY_ATTACK_LOW_SEED42",
+    "attack_type": "REPLAY_ATTACK",
+    "intensity": "LOW",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_REPLAY_ATTACK_MEDIUM_SEED42",
+    "attack_type": "REPLAY_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_REPLAY_ATTACK_HIGH_SEED42",
+    "attack_type": "REPLAY_ATTACK",
+    "intensity": "HIGH",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_MESSAGE_TAMPERING_ATTACK_LOW_SEED42",
+    "attack_type": "MESSAGE_TAMPERING_ATTACK",
+    "intensity": "LOW",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_MESSAGE_TAMPERING_ATTACK_MEDIUM_SEED42",
+    "attack_type": "MESSAGE_TAMPERING_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_MESSAGE_TAMPERING_ATTACK_HIGH_SEED42",
+    "attack_type": "MESSAGE_TAMPERING_ATTACK",
+    "intensity": "HIGH",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_SESSION_ABUSE_ATTACK_LOW_SEED42",
+    "attack_type": "SESSION_ABUSE_ATTACK",
+    "intensity": "LOW",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_SESSION_ABUSE_ATTACK_MEDIUM_SEED42",
+    "attack_type": "SESSION_ABUSE_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_SESSION_ABUSE_ATTACK_HIGH_SEED42",
+    "attack_type": "SESSION_ABUSE_ATTACK",
+    "intensity": "HIGH",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_RESOURCE_PRESSURE_ATTACK_LOW_SEED42",
+    "attack_type": "RESOURCE_PRESSURE_ATTACK",
+    "intensity": "LOW",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_RESOURCE_PRESSURE_ATTACK_MEDIUM_SEED42",
+    "attack_type": "RESOURCE_PRESSURE_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 42
+  },
+  {
+    "experiment_id": "ATTACK_RESOURCE_PRESSURE_ATTACK_HIGH_SEED42",
+    "attack_type": "RESOURCE_PRESSURE_ATTACK",
+    "intensity": "HIGH",
+    "seed": 42
+  },
+  {
+    "experiment_id": "NO_ATTACK_SEED43",
+    "attack_type": "NO_ATTACK",
+    "intensity": "N/A",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_AUTHENTICATION_ATTACK_LOW_SEED43",
+    "attack_type": "AUTHENTICATION_ATTACK",
+    "intensity": "LOW",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_AUTHENTICATION_ATTACK_MEDIUM_SEED43",
+    "attack_type": "AUTHENTICATION_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_AUTHENTICATION_ATTACK_HIGH_SEED43",
+    "attack_type": "AUTHENTICATION_ATTACK",
+    "intensity": "HIGH",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_REPLAY_ATTACK_LOW_SEED43",
+    "attack_type": "REPLAY_ATTACK",
+    "intensity": "LOW",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_REPLAY_ATTACK_MEDIUM_SEED43",
+    "attack_type": "REPLAY_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_REPLAY_ATTACK_HIGH_SEED43",
+    "attack_type": "REPLAY_ATTACK",
+    "intensity": "HIGH",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_MESSAGE_TAMPERING_ATTACK_LOW_SEED43",
+    "attack_type": "MESSAGE_TAMPERING_ATTACK",
+    "intensity": "LOW",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_MESSAGE_TAMPERING_ATTACK_MEDIUM_SEED43",
+    "attack_type": "MESSAGE_TAMPERING_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_MESSAGE_TAMPERING_ATTACK_HIGH_SEED43",
+    "attack_type": "MESSAGE_TAMPERING_ATTACK",
+    "intensity": "HIGH",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_SESSION_ABUSE_ATTACK_LOW_SEED43",
+    "attack_type": "SESSION_ABUSE_ATTACK",
+    "intensity": "LOW",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_SESSION_ABUSE_ATTACK_MEDIUM_SEED43",
+    "attack_type": "SESSION_ABUSE_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_SESSION_ABUSE_ATTACK_HIGH_SEED43",
+    "attack_type": "SESSION_ABUSE_ATTACK",
+    "intensity": "HIGH",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_RESOURCE_PRESSURE_ATTACK_LOW_SEED43",
+    "attack_type": "RESOURCE_PRESSURE_ATTACK",
+    "intensity": "LOW",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_RESOURCE_PRESSURE_ATTACK_MEDIUM_SEED43",
+    "attack_type": "RESOURCE_PRESSURE_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 43
+  },
+  {
+    "experiment_id": "ATTACK_RESOURCE_PRESSURE_ATTACK_HIGH_SEED43",
+    "attack_type": "RESOURCE_PRESSURE_ATTACK",
+    "intensity": "HIGH",
+    "seed": 43
+  },
+  {
+    "experiment_id": "NO_ATTACK_SEED44",
+    "attack_type": "NO_ATTACK",
+    "intensity": "N/A",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_AUTHENTICATION_ATTACK_LOW_SEED44",
+    "attack_type": "AUTHENTICATION_ATTACK",
+    "intensity": "LOW",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_AUTHENTICATION_ATTACK_MEDIUM_SEED44",
+    "attack_type": "AUTHENTICATION_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_AUTHENTICATION_ATTACK_HIGH_SEED44",
+    "attack_type": "AUTHENTICATION_ATTACK",
+    "intensity": "HIGH",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_REPLAY_ATTACK_LOW_SEED44",
+    "attack_type": "REPLAY_ATTACK",
+    "intensity": "LOW",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_REPLAY_ATTACK_MEDIUM_SEED44",
+    "attack_type": "REPLAY_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_REPLAY_ATTACK_HIGH_SEED44",
+    "attack_type": "REPLAY_ATTACK",
+    "intensity": "HIGH",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_MESSAGE_TAMPERING_ATTACK_LOW_SEED44",
+    "attack_type": "MESSAGE_TAMPERING_ATTACK",
+    "intensity": "LOW",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_MESSAGE_TAMPERING_ATTACK_MEDIUM_SEED44",
+    "attack_type": "MESSAGE_TAMPERING_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_MESSAGE_TAMPERING_ATTACK_HIGH_SEED44",
+    "attack_type": "MESSAGE_TAMPERING_ATTACK",
+    "intensity": "HIGH",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_SESSION_ABUSE_ATTACK_LOW_SEED44",
+    "attack_type": "SESSION_ABUSE_ATTACK",
+    "intensity": "LOW",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_SESSION_ABUSE_ATTACK_MEDIUM_SEED44",
+    "attack_type": "SESSION_ABUSE_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_SESSION_ABUSE_ATTACK_HIGH_SEED44",
+    "attack_type": "SESSION_ABUSE_ATTACK",
+    "intensity": "HIGH",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_RESOURCE_PRESSURE_ATTACK_LOW_SEED44",
+    "attack_type": "RESOURCE_PRESSURE_ATTACK",
+    "intensity": "LOW",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_RESOURCE_PRESSURE_ATTACK_MEDIUM_SEED44",
+    "attack_type": "RESOURCE_PRESSURE_ATTACK",
+    "intensity": "MEDIUM",
+    "seed": 44
+  },
+  {
+    "experiment_id": "ATTACK_RESOURCE_PRESSURE_ATTACK_HIGH_SEED44",
+    "attack_type": "RESOURCE_PRESSURE_ATTACK",
+    "intensity": "HIGH",
+    "seed": 44
+  }
+]

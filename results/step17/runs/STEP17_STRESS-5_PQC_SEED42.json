@@ -1,0 +1,58 @@
+{
+  "experiment_id": "STEP17_STRESS-5_PQC_SEED42",
+  "scenario_id": "STRESS-5",
+  "expected_stress_factor": "Security Mode Stress",
+  "security_mode": "PQC",
+  "seed": 42,
+  "scale_configuration": {
+    "devices": 50,
+    "edge_nodes": 5,
+    "core_nodes": 1
+  },
+  "workload_configuration": {
+    "duration": 100,
+    "message_rate": 0.5,
+    "payload_size": 256
+  },
+  "status": "COMPLETED",
+  "network_metrics": {
+    "messages_generated": 2506,
+    "messages_delivered": 2430,
+    "messages_failed": 0,
+    "messages_in_flight": 76,
+    "average_response_latency_ticks": 1.0,
+    "throughput": 24.3,
+    "execution_time_sec": 10.53239130973816
+  },
+  "security_metrics": {
+    "authentication_attempts": 50,
+    "authentication_successes": 50,
+    "authentication_failures": 0,
+    "key_establishment_operations": 50,
+    "encryption_operations": 4860,
+    "decryption_operations": 4860,
+    "security_failures": 0,
+    "security_processing_time": 10.313652998884209
+  },
+  "adaptive_metrics": {
+    "initial_mode": "N/A",
+    "final_mode": "N/A",
+    "transition_count": "N/A",
+    "transition_latency": "N/A",
+    "adaptive_orchestration_execution_time": "N/A"
+  },
+  "stress_metrics": {
+    "exception_count": 0,
+    "run_failure": false,
+    "state_consistency_violation": false,
+    "accounting_violation": false,
+    "event_count": 4960,
+    "events_per_generated_message": 1.9792498004788508,
+    "execution_time_per_generated_message": 0.0042028696367670225,
+    "execution_time_per_device": 0.2106478261947632
+  },
+  "resource_metrics": {
+    "peak_memory": "N/A",
+    "cpu_usage": "N/A"
+  }
+}

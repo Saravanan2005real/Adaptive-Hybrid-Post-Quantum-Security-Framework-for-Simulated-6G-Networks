@@ -1,0 +1,1054 @@
+{
+  "aggregates_by_scale_mode": {
+    "S1": {
+      "CLASSICAL": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 491,
+          "median": 491,
+          "min": 491,
+          "max": 491,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 454,
+          "median": 454,
+          "min": 454,
+          "max": 454,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 9.08,
+          "median": 9.08,
+          "min": 9.08,
+          "max": 9.08,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 0.085693359375,
+          "median": 0.07892560958862305,
+          "min": 0.06741929054260254,
+          "max": 0.11073517799377441,
+          "stdev": 0.02243698630161594
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.0017138671875,
+          "median": 0.001578512191772461,
+          "min": 0.0013483858108520508,
+          "max": 0.002214703559875488,
+          "stdev": 0.00044873972603231866
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        }
+      },
+      "PQC": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 491,
+          "median": 491,
+          "min": 491,
+          "max": 491,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 454,
+          "median": 454,
+          "min": 454,
+          "max": 454,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 9.08,
+          "median": 9.08,
+          "min": 9.08,
+          "max": 9.08,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 11.27418859799703,
+          "median": 10.917834520339966,
+          "min": 10.891927242279053,
+          "max": 12.01280403137207,
+          "stdev": 0.6397908764424363
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.2254837719599406,
+          "median": 0.2183566904067993,
+          "min": 0.21783854484558104,
+          "max": 0.24025608062744142,
+          "stdev": 0.012795817528848735
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        }
+      },
+      "HYBRID": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 491,
+          "median": 491,
+          "min": 491,
+          "max": 491,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 454,
+          "median": 454,
+          "min": 454,
+          "max": 454,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 9.08,
+          "median": 9.08,
+          "min": 9.08,
+          "max": 9.08,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 17.780819018681843,
+          "median": 17.905357599258423,
+          "min": 16.492048025131226,
+          "max": 18.945051431655884,
+          "stdev": 1.2312346736688404
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.3556163803736369,
+          "median": 0.35810715198516846,
+          "min": 0.3298409605026245,
+          "max": 0.3789010286331177,
+          "stdev": 0.02462469347337682
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        }
+      },
+      "ADAPTIVE_HYBRID": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 491,
+          "median": 491,
+          "min": 491,
+          "max": 491,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 454,
+          "median": 454,
+          "min": 454,
+          "max": 454,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 9.08,
+          "median": 9.08,
+          "min": 9.08,
+          "max": 9.08,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 21.41513792673747,
+          "median": 21.22666096687317,
+          "min": 21.224485158920288,
+          "max": 21.794267654418945,
+          "stdev": 0.32833777782024354
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.42830275853474936,
+          "median": 0.42453321933746335,
+          "min": 0.4244897031784058,
+          "max": 0.4358853530883789,
+          "stdev": 0.006566755556404863
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        }
+      }
+    },
+    "S2": {
+      "CLASSICAL": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 981,
+          "median": 981,
+          "min": 981,
+          "max": 981,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 920,
+          "median": 920,
+          "min": 920,
+          "max": 920,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 18.4,
+          "median": 18.4,
+          "min": 18.4,
+          "max": 18.4,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 0.22974451382954916,
+          "median": 0.21401166915893555,
+          "min": 0.20823216438293457,
+          "max": 0.26698970794677734,
+          "stdev": 0.03238447208905005
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.0022974451382954913,
+          "median": 0.0021401166915893553,
+          "min": 0.0020823216438293456,
+          "max": 0.0026698970794677736,
+          "stdev": 0.00032384472089050067
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 2.7370802582922655,
+          "median": 2.7115618146557194,
+          "min": 2.411064964033269,
+          "max": 3.0886139961878087,
+          "stdev": 0.3394945742830246
+        }
+      },
+      "PQC": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 981,
+          "median": 981,
+          "min": 981,
+          "max": 981,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 920,
+          "median": 920,
+          "min": 920,
+          "max": 920,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 18.4,
+          "median": 18.4,
+          "min": 18.4,
+          "max": 18.4,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 45.99056363105774,
+          "median": 46.19661545753479,
+          "min": 45.07845497131348,
+          "max": 46.69662046432495,
+          "stdev": 0.8285275536089091
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.4599056363105774,
+          "median": 0.4619661545753479,
+          "min": 0.45078454971313475,
+          "max": 0.4669662046432495,
+          "stdev": 0.008285275536089095
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 4.085827533960618,
+          "median": 4.128882415952738,
+          "min": 3.8872373462827055,
+          "max": 4.241362839646412,
+          "stdev": 0.18094614781762716
+        }
+      },
+      "HYBRID": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 981,
+          "median": 981,
+          "min": 981,
+          "max": 981,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 920,
+          "median": 920,
+          "min": 920,
+          "max": 920,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 18.4,
+          "median": 18.4,
+          "min": 18.4,
+          "max": 18.4,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 40.15389537811279,
+          "median": 37.74732732772827,
+          "min": 37.68275856971741,
+          "max": 45.0316002368927,
+          "stdev": 4.224339687827152
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.4015389537811279,
+          "median": 0.3774732732772827,
+          "min": 0.37682758569717406,
+          "max": 0.450316002368927,
+          "stdev": 0.04224339687827153
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 2.256776823341724,
+          "median": 2.288819876719218,
+          "min": 2.1045521353495946,
+          "max": 2.37695845795636,
+          "stdev": 0.1390013276963568
+        }
+      },
+      "ADAPTIVE_HYBRID": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 981,
+          "median": 981,
+          "min": 981,
+          "max": 981,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 920,
+          "median": 920,
+          "min": 920,
+          "max": 920,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 18.4,
+          "median": 18.4,
+          "min": 18.4,
+          "max": 18.4,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 36.075074911117554,
+          "median": 35.83191394805908,
+          "min": 31.051944494247437,
+          "max": 41.34136629104614,
+          "stdev": 5.149018903497609
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.36075074911117555,
+          "median": 0.3583191394805908,
+          "min": 0.31051944494247435,
+          "max": 0.41341366291046144,
+          "stdev": 0.051490189034976104
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 1.682667059413409,
+          "median": 1.6882347760034848,
+          "min": 1.4628746623271478,
+          "max": 1.8968917399095941,
+          "stdev": 0.21706210058258069
+        }
+      }
+    },
+    "S3": {
+      "CLASSICAL": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 2515,
+          "median": 2515,
+          "min": 2515,
+          "max": 2515,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 2365,
+          "median": 2365,
+          "min": 2365,
+          "max": 2365,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 47.3,
+          "median": 47.3,
+          "min": 47.3,
+          "max": 47.3,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 0.4460156758626302,
+          "median": 0.45203733444213867,
+          "min": 0.41202473640441895,
+          "max": 0.473984956741333,
+          "stdev": 0.03141595940100924
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.0017840627034505208,
+          "median": 0.0018081493377685547,
+          "min": 0.0016480989456176757,
+          "max": 0.001895939826965332,
+          "stdev": 0.000125663837604037
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 5.44432397617559,
+          "median": 5.220418803883542,
+          "min": 4.082147540030617,
+          "max": 7.03040558461261,
+          "stdev": 1.4868276695686553
+        }
+      },
+      "PQC": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 2515,
+          "median": 2515,
+          "min": 2515,
+          "max": 2515,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 2365,
+          "median": 2365,
+          "min": 2365,
+          "max": 2365,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 47.3,
+          "median": 47.3,
+          "min": 47.3,
+          "max": 47.3,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 57.821799198786415,
+          "median": 58.35940098762512,
+          "min": 55.492947816848755,
+          "max": 59.613048791885376,
+          "stdev": 2.1120061017067067
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.23128719679514567,
+          "median": 0.23343760395050048,
+          "min": 0.22197179126739502,
+          "max": 0.23845219516754151,
+          "stdev": 0.008448024406826828
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 5.137707491642639,
+          "median": 5.094869492098928,
+          "min": 4.85809981043697,
+          "max": 5.460153172392021,
+          "stdev": 0.30330411028211446
+        }
+      },
+      "HYBRID": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 2515,
+          "median": 2515,
+          "min": 2515,
+          "max": 2515,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 2365,
+          "median": 2365,
+          "min": 2365,
+          "max": 2365,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 47.3,
+          "median": 47.3,
+          "min": 47.3,
+          "max": 47.3,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 58.682130575180054,
+          "median": 58.537578105926514,
+          "min": 58.34043478965759,
+          "max": 59.168378829956055,
+          "stdev": 0.4324862954382566
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.23472852230072022,
+          "median": 0.23415031242370604,
+          "min": 0.23336173915863037,
+          "max": 0.23667351531982422,
+          "stdev": 0.0017299451817530313
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 3.3106189573252593,
+          "median": 3.3045069612240865,
+          "min": 3.0898611342967497,
+          "max": 3.5374887764549414,
+          "stdev": 0.22387640312967577
+        }
+      },
+      "ADAPTIVE_HYBRID": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 2515,
+          "median": 2515,
+          "min": 2515,
+          "max": 2515,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 2365,
+          "median": 2365,
+          "min": 2365,
+          "max": 2365,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 47.3,
+          "median": 47.3,
+          "min": 47.3,
+          "max": 47.3,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 72.46152313550313,
+          "median": 72.46793174743652,
+          "min": 72.44121408462524,
+          "max": 72.47542357444763,
+          "stdev": 0.017982631305279165
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.28984609254201255,
+          "median": 0.2898717269897461,
+          "min": 0.28976485633850096,
+          "max": 0.2899016942977905,
+          "stdev": 7.193052522111737e-05
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 3.3841820495139316,
+          "median": 3.4127465548009988,
+          "min": 3.325091390843001,
+          "max": 3.4147082028977955,
+          "stdev": 0.05118341012903736
+        }
+      }
+    },
+    "S4": {
+      "CLASSICAL": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 5024,
+          "median": 5024,
+          "min": 5024,
+          "max": 5024,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 4776,
+          "median": 4776,
+          "min": 4776,
+          "max": 4776,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 95.52,
+          "median": 95.52,
+          "min": 95.52,
+          "max": 95.52,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 0.872931162516276,
+          "median": 0.8625154495239258,
+          "min": 0.8526067733764648,
+          "max": 0.9036712646484375,
+          "stdev": 0.027078790133065463
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.001745862325032552,
+          "median": 0.0017250308990478516,
+          "min": 0.0017052135467529297,
+          "max": 0.001807342529296875,
+          "stdev": 5.4157580266130884e-05
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 10.578397458887345,
+          "median": 10.928207637793848,
+          "min": 8.160652116342309,
+          "max": 12.646332622525877,
+          "stdev": 2.2632074080469886
+        }
+      },
+      "PQC": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 5024,
+          "median": 5024,
+          "min": 5024,
+          "max": 5024,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 4776,
+          "median": 4776,
+          "min": 4776,
+          "max": 4776,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 95.52,
+          "median": 95.52,
+          "min": 95.52,
+          "max": 95.52,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 113.8419193426768,
+          "median": 113.33834958076477,
+          "min": 111.7835042476654,
+          "max": 116.40390419960022,
+          "stdev": 2.351002085876129
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.2276838386853536,
+          "median": 0.22667669916152955,
+          "min": 0.22356700849533082,
+          "max": 0.23280780839920043,
+          "stdev": 0.00470200417175225
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 10.12452130480854,
+          "median": 10.38102834125348,
+          "min": 9.305363173804958,
+          "max": 10.687172399367183,
+          "stdev": 0.7257382990937872
+        }
+      },
+      "HYBRID": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 5024,
+          "median": 5024,
+          "min": 5024,
+          "max": 5024,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 4776,
+          "median": 4776,
+          "min": 4776,
+          "max": 4776,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 95.52,
+          "median": 95.52,
+          "min": 95.52,
+          "max": 95.52,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 116.62221598625183,
+          "median": 117.62748742103577,
+          "min": 113.19270491600037,
+          "max": 119.04645562171936,
+          "stdev": 3.053608901672056
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.23324443197250366,
+          "median": 0.23525497484207153,
+          "min": 0.22638540983200073,
+          "max": 0.23809291124343873,
+          "stdev": 0.0061072178033441185
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 6.5852720134039595,
+          "median": 6.648649989914183,
+          "min": 5.974790056619383,
+          "max": 7.132375993678312,
+          "stdev": 0.5813896080504429
+        }
+      },
+      "ADAPTIVE_HYBRID": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 5024,
+          "median": 5024,
+          "min": 5024,
+          "max": 5024,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 4776,
+          "median": 4776,
+          "min": 4776,
+          "max": 4776,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 95.52,
+          "median": 95.52,
+          "min": 95.52,
+          "max": 95.52,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 145.5873822371165,
+          "median": 146.1365041732788,
+          "min": 143.416166305542,
+          "max": 147.2094762325287,
+          "stdev": 1.9553647296923753
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.291174764474233,
+          "median": 0.2922730083465576,
+          "min": 0.286832332611084,
+          "max": 0.2944189524650574,
+          "stdev": 0.0039107294593847585
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 6.798729008840977,
+          "median": 6.757109311801923,
+          "min": 6.754504375497146,
+          "max": 6.884573339223861,
+          "stdev": 0.07435477938540565
+        }
+      }
+    },
+    "S5": {
+      "CLASSICAL": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 9981,
+          "median": 9981,
+          "min": 9981,
+          "max": 9981,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 9386,
+          "median": 9386,
+          "min": 9386,
+          "max": 9386,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 187.72,
+          "median": 187.72,
+          "min": 187.72,
+          "max": 187.72,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 1.6525839964548747,
+          "median": 1.6669042110443115,
+          "min": 1.5374455451965332,
+          "max": 1.7534022331237793,
+          "stdev": 0.10868819703418642
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.0016525839964548746,
+          "median": 0.0016669042110443115,
+          "min": 0.0015374455451965332,
+          "max": 0.0017534022331237792,
+          "stdev": 0.00010868819703418636
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 20.337117404719095,
+          "median": 21.1199409131278,
+          "min": 13.88398495447372,
+          "max": 26.007426346555768,
+          "stdev": 6.099513692156126
+        }
+      },
+      "PQC": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 9981,
+          "median": 9981,
+          "min": 9981,
+          "max": 9981,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 9386,
+          "median": 9386,
+          "min": 9386,
+          "max": 9386,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 187.72,
+          "median": 187.72,
+          "min": 187.72,
+          "max": 187.72,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 216.58592128753662,
+          "median": 219.33018231391907,
+          "min": 203.6348955631256,
+          "max": 226.79268598556519,
+          "stdev": 11.820280908172181
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.21658592128753662,
+          "median": 0.21933018231391907,
+          "min": 0.2036348955631256,
+          "max": 0.22679268598556518,
+          "stdev": 0.011820280908172177
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 19.24390213670707,
+          "median": 18.651582892537256,
+          "min": 18.258033823004748,
+          "max": 20.82208969457921,
+          "stdev": 1.3808429285763433
+        }
+      },
+      "HYBRID": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 9981,
+          "median": 9981,
+          "min": 9981,
+          "max": 9981,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 9386,
+          "median": 9386,
+          "min": 9386,
+          "max": 9386,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 187.72,
+          "median": 187.72,
+          "min": 187.72,
+          "max": 187.72,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 241.7613249619802,
+          "median": 244.81905126571655,
+          "min": 231.72495102882385,
+          "max": 248.73997259140015,
+          "stdev": 8.910107031071794
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.2417613249619802,
+          "median": 0.24481905126571654,
+          "min": 0.23172495102882384,
+          "max": 0.24873997259140015,
+          "stdev": 0.0089101070310718
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 13.662263965908318,
+          "median": 13.672949557614873,
+          "min": 12.231423697358103,
+          "max": 15.082418642751978,
+          "stdev": 1.4255275097548787
+        }
+      },
+      "ADAPTIVE_HYBRID": {
+        "count": 3,
+        "network_metrics.messages_generated": {
+          "mean": 9981,
+          "median": 9981,
+          "min": 9981,
+          "max": 9981,
+          "stdev": 0.0
+        },
+        "network_metrics.responses_delivered": {
+          "mean": 9386,
+          "median": 9386,
+          "min": 9386,
+          "max": 9386,
+          "stdev": 0.0
+        },
+        "network_metrics.average_response_latency": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stdev": 0.0
+        },
+        "network_metrics.throughput": {
+          "mean": 187.72,
+          "median": 187.72,
+          "min": 187.72,
+          "max": 187.72,
+          "stdev": 0.0
+        },
+        "security_overhead_metrics.combined_execution_time": {
+          "mean": 294.78659232457477,
+          "median": 294.94496750831604,
+          "min": 291.4185655117035,
+          "max": 297.99624395370483,
+          "stdev": 3.2916979578495824
+        },
+        "scalability_metrics.execution_time_per_device": {
+          "mean": 0.29478659232457477,
+          "median": 0.29494496750831606,
+          "min": 0.2914185655117035,
+          "max": 0.29799624395370483,
+          "stdev": 0.0032916979578495893
+        },
+        "scalability_metrics.scaling_ratio": {
+          "mean": 13.766157611555554,
+          "median": 13.73030079786059,
+          "min": 13.673147851484881,
+          "max": 13.895024185321194,
+          "stdev": 0.1152022577705288
+        }
+      }
+    }
+  }
+}

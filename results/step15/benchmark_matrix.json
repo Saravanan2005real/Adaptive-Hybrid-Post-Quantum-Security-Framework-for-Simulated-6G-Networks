@@ -1,0 +1,102 @@
+[
+  {
+    "experiment_id": "STEP15_CLASSICAL_SEED42",
+    "security_mode": "CLASSICAL",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP15_CLASSICAL_SEED43",
+    "security_mode": "CLASSICAL",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP15_CLASSICAL_SEED44",
+    "security_mode": "CLASSICAL",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP15_CLASSICAL_SEED45",
+    "security_mode": "CLASSICAL",
+    "seed": 45
+  },
+  {
+    "experiment_id": "STEP15_CLASSICAL_SEED46",
+    "security_mode": "CLASSICAL",
+    "seed": 46
+  },
+  {
+    "experiment_id": "STEP15_PQC_SEED42",
+    "security_mode": "PQC",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP15_PQC_SEED43",
+    "security_mode": "PQC",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP15_PQC_SEED44",
+    "security_mode": "PQC",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP15_PQC_SEED45",
+    "security_mode": "PQC",
+    "seed": 45
+  },
+  {
+    "experiment_id": "STEP15_PQC_SEED46",
+    "security_mode": "PQC",
+    "seed": 46
+  },
+  {
+    "experiment_id": "STEP15_HYBRID_SEED42",
+    "security_mode": "HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP15_HYBRID_SEED43",
+    "security_mode": "HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP15_HYBRID_SEED44",
+    "security_mode": "HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP15_HYBRID_SEED45",
+    "security_mode": "HYBRID",
+    "seed": 45
+  },
+  {
+    "experiment_id": "STEP15_HYBRID_SEED46",
+    "security_mode": "HYBRID",
+    "seed": 46
+  },
+  {
+    "experiment_id": "STEP15_ADAPTIVE_HYBRID_SEED42",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 42
+  },
+  {
+    "experiment_id": "STEP15_ADAPTIVE_HYBRID_SEED43",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 43
+  },
+  {
+    "experiment_id": "STEP15_ADAPTIVE_HYBRID_SEED44",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 44
+  },
+  {
+    "experiment_id": "STEP15_ADAPTIVE_HYBRID_SEED45",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 45
+  },
+  {
+    "experiment_id": "STEP15_ADAPTIVE_HYBRID_SEED46",
+    "security_mode": "ADAPTIVE_HYBRID",
+    "seed": 46
+  }
+]
