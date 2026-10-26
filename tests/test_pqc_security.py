@@ -237,8 +237,11 @@ def test_pqc_events_and_secrets():
 
 def test_pqc_experiment_executes():
     # 22. PQC experiment executes & 23. Protected PQC messages use the real Step 2 network
+    import os
     import subprocess
-    result = subprocess.run(["python", "experiments/pqc_security_baseline.py"], capture_output=True, text=True)
+    import sys
+    env = {**os.environ, "PYTHONPATH": "."}
+    result = subprocess.run([sys.executable, "experiments/pqc_security_baseline.py"], capture_output=True, text=True, env=env)
     assert result.returncode == 0
     assert "PQC Security Baseline Simulation" in result.stdout
     assert "Authentication Failures: 0" in result.stdout

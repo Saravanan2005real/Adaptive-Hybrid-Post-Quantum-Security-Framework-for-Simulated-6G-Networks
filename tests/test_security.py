@@ -128,7 +128,9 @@ def test_no_secrets_in_logs():
 def test_experiment_executes():
     # Test that the classical baseline experiment runs successfully
     import subprocess
-    result = subprocess.run(["python", "experiments/classical_security_baseline.py"], capture_output=True, text=True)
+    import sys
+    env = {**os.environ, "PYTHONPATH": "."}
+    result = subprocess.run([sys.executable, "experiments/classical_security_baseline.py"], capture_output=True, text=True, env=env)
     assert result.returncode == 0
     assert "Security Simulation Summary" in result.stdout
 
