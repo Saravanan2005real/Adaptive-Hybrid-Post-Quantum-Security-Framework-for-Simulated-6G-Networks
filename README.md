@@ -90,23 +90,23 @@ The AERIS-PQ6G platform is decomposed into seven decoupled architectural layers:
 ```mermaid
 graph TD
     subgraph "Layer 1: 6G Network Simulation Topology"
-        UE[User Equipment / IoT Devices (50 to 1,000+)] <-->|Wireless Access| Edge[Edge Base Stations / MEC]
-        Edge <-->|High-Speed Optical Backhaul| Core[Core Network / UPF / CP]
+        UE["User Equipment / IoT Devices (50 to 1,000+)"] <-->|Wireless Access| Edge["Edge Base Stations / MEC"]
+        Edge <-->|High-Speed Optical Backhaul| Core["Core Network / UPF / CP"]
     end
 
     subgraph "Layer 2: Telemetry & Security Environment (Step 7)"
-        Logger[Structured Event Logger]
-        EnvMgr[Environment Manager]
-        Context[Security Context Registry]
+        Logger["Structured Event Logger"]
+        EnvMgr["Environment Manager"]
+        Context["Security Context Registry"]
         Logger --> EnvMgr
         EnvMgr --> Context
     end
 
     subgraph "Layer 3: Threat Intelligence & Dual Risk Engine (Steps 8 & 10)"
-        RuleEngine[Rule-Based Heuristic Risk Engine]
-        MLFeature[Feature Extraction Pipeline]
-        MLModel[Random Forest ML Risk Predictor]
-        Fusion[Risk Fusion Engine (Step 11)]
+        RuleEngine["Rule-Based Heuristic Risk Engine"]
+        MLFeature["Feature Extraction Pipeline"]
+        MLModel["Random Forest ML Risk Predictor"]
+        Fusion["Risk Fusion Engine (Step 11)"]
         
         Context --> RuleEngine
         Context --> MLFeature
@@ -116,9 +116,9 @@ graph TD
     end
 
     subgraph "Layer 4: Adaptive Decision & Orchestration (Steps 9 & 11)"
-        Policy[Security Policy Matrix]
-        Hysteresis[Stateful Hysteresis Cooldown]
-        Orchestrator[Adaptive Security Engine]
+        Policy["Security Policy Matrix"]
+        Hysteresis["Stateful Hysteresis Cooldown"]
+        Orchestrator["Adaptive Security Engine"]
         
         Fusion -->|Fused Risk Level| Policy
         Policy --> Hysteresis
@@ -126,27 +126,34 @@ graph TD
     end
 
     subgraph "Layer 5: Multi-Paradigm Cryptographic Engine (Steps 3-6)"
-        Classical[Classical Suite: Ed25519 + X25519 + AES-256-GCM]
-        PQCSuite[PQC Suite: ML-DSA-65 + ML-KEM-768 + AES-256-GCM]
-        HybridSuite[Hybrid Suite: Dual KEM + Dual Signatures + AES-256-GCM]
+        Classical["Classical Suite: Ed25519 + X25519 + AES-256-GCM"]
+        PQCSuite["PQC Suite: ML-DSA-65 + ML-KEM-768 + AES-256-GCM"]
+        HybridSuite["Hybrid Suite: Dual KEM + Dual Signatures + AES-256-GCM"]
     end
 
     subgraph "Layer 6: Threat Injection Framework (Step 12)"
-        AttackerSim[Synthetic Attacker Simulator]
+        AttackerSim["Synthetic Attacker Simulator"]
         Attacks["5 Threat Vectors: Auth, Replay, Tampering, Session, Resource"]
         AttackerSim --> Attacks
     end
 
     subgraph "Layer 7: Presentation & Visualization (Step 18)"
-        FastAPI[FastAPI Backend Daemon (api.py)]
-        NextUI[Next.js 16 Web Dashboard (web-dashboard)]
+        FastAPI["FastAPI Backend Daemon (api.py)"]
+        NextUI["Next.js 16 Web Dashboard (web-dashboard)"]
         FastAPI <-->|REST API| NextUI
     end
 
-    UE & Edge & Core -->|Simulated Events| Logger
-    Attacks -.->|Inject Adversarial Frames| UE & Edge
-    Orchestrator -->|Enforce Cryptographic Mode| Classical & PQCSuite & HybridSuite
-    Classical & PQCSuite & HybridSuite -->|Secure Session Enforcement| UE & Edge & Core
+    UE -->|Simulated Events| Logger
+    Edge -->|Simulated Events| Logger
+    Core -->|Simulated Events| Logger
+    Attacks -.->|Inject Adversarial Frames| UE
+    Attacks -.->|Inject Adversarial Frames| Edge
+    Orchestrator -->|Enforce Cryptographic Mode| Classical
+    Orchestrator -->|Enforce Cryptographic Mode| PQCSuite
+    Orchestrator -->|Enforce Cryptographic Mode| HybridSuite
+    Classical -->|Secure Session Enforcement| UE
+    PQCSuite -->|Secure Session Enforcement| Edge
+    HybridSuite -->|Secure Session Enforcement| Core
     FastAPI -->|Query Artifacts / Run Isolated Scenarios| Orchestrator
 ```
 
